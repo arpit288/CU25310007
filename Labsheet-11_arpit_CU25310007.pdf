@@ -1,0 +1,1475 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Author (Arpit Kumar)
+/Title (Labsheet\05511\137arpit\137CU25310007)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 15
+/Kids [ 4 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 38 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 3633
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 773.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL 180.2729 0 Td (LABSHEET-11) Tj T* -180.2729 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 746.3701 cm
+q
+BT 1 0 0 1 0 3 Tm 174.0849 0 Td 13 TL /F1 10 Tf 0 0 0 rg (Java GUI & Event Handling) Tj T* -174.0849 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 712.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q1. Student Registration Form - AWT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 674.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26.5 Tm /F1 9.5 Tf 12 TL (Create a Java AWT application to design a Student Registration Form containing Label and TextField for) Tj T* (Student Name, Roll Number and Course; Checkbox for Gender; Choice for Semester; Submit and Reset) Tj T* (buttons. Submit should display entered information; Reset should clear all fields.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 49.97008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 612.9 Tm /F3 7.5 Tf 9.4 TL (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends Frame implements ActionListener {) Tj T* (    Label lName, lRoll, lCourse, lGender, lSem;) Tj T* (    TextField tName, tRoll, tCourse;) Tj T* (    Checkbox male, female, other;) Tj T* (    CheckboxGroup genderGroup;) Tj T* (    Choice semester;) Tj T* (    Button submit, reset;) Tj T* (    TextArea output;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Student Registration Form"\);) Tj T* (        setLayout\(new BorderLayout\(10, 10\)\);) Tj T*  T* (        Panel form = new Panel\(new GridLayout\(6, 2, 10, 10\)\);) Tj T*  T* (        lName = new Label\("Student Name:"\);) Tj T* (        tName = new TextField\(20\);) Tj T* (        lRoll = new Label\("Roll Number:"\);) Tj T* (        tRoll = new TextField\(20\);) Tj T* (        lCourse = new Label\("Course:"\);) Tj T* (        tCourse = new TextField\(20\);) Tj T*  T* (        lGender = new Label\("Gender:"\);) Tj T* (        genderGroup = new CheckboxGroup\(\);) Tj T* (        male = new Checkbox\("Male", genderGroup, false\);) Tj T* (        female = new Checkbox\("Female", genderGroup, false\);) Tj T* (        other = new Checkbox\("Other", genderGroup, false\);) Tj T* (        Panel genderPanel = new Panel\(new FlowLayout\(FlowLayout.LEFT\)\);) Tj T* (        genderPanel.add\(male\);) Tj T* (        genderPanel.add\(female\);) Tj T* (        genderPanel.add\(other\);) Tj T*  T* (        lSem = new Label\("Semester:"\);) Tj T* (        semester = new Choice\(\);) Tj T* (        for \(int i = 1; i <= 8; i++\) {) Tj T* (            semester.add\("Semester " + i\);) Tj T* (        }) Tj T*  T* (        submit = new Button\("Submit"\);) Tj T* (        reset = new Button\("Reset"\);) Tj T*  T* (        form.add\(lName\);   form.add\(tName\);) Tj T* (        form.add\(lRoll\);   form.add\(tRoll\);) Tj T* (        form.add\(lCourse\); form.add\(tCourse\);) Tj T* (        form.add\(lGender\); form.add\(genderPanel\);) Tj T* (        form.add\(lSem\);    form.add\(semester\);) Tj T* (        form.add\(submit\);  form.add\(reset\);) Tj T*  T* (        output = new TextArea\(6, 30\);) Tj T* (        output.setEditable\(false\);) Tj T*  T* (        add\(new Label\("   "\), BorderLayout.WEST\);) Tj T* (        add\(form, BorderLayout.CENTER\);) Tj T* (        add\(output, BorderLayout.SOUTH\);) Tj T*  T* (        submit.addActionListener\(this\);) Tj T* (        reset.addActionListener\(this\);) Tj T*  T* (        addWindowListener\(new WindowAdapter\(\) {) Tj T* (            public void windowClosing\(WindowEvent e\) {) Tj T* (                dispose\(\);) Tj T* (            }) Tj T* (        }\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 39 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Length 3788
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 539.5701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 246.3 Tm /F3 7.5 Tf 9.4 TL (        setSize\(430, 470\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == submit\) {) Tj T* (            Checkbox selected = genderGroup.getSelectedCheckbox\(\);) Tj T* (            String gender = \(selected == null\) ? "Not selected" : selected.getLabel\(\);) Tj T* (            output.setText\("Student Name : " + tName.getText\(\) + "\\n") Tj T* (                    + "Roll Number  : " + tRoll.getText\(\) + "\\n") Tj T* (                    + "Course       : " + tCourse.getText\(\) + "\\n") Tj T* (                    + "Gender       : " + gender + "\\n") Tj T* (                    + "Semester     : " + semester.getSelectedItem\(\)\);) Tj T* (        } else if \(e.getSource\(\) == reset\) {) Tj T* (            tName.setText\(""\);) Tj T* (            tRoll.setText\(""\);) Tj T* (            tCourse.setText\(""\);) Tj T* (            genderGroup.setSelectedCheckbox\(null\);) Tj T* (            semester.select\(0\);) Tj T* (            output.setText\(""\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 524.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 401.3701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 114.7 Tm /F3 7.5 Tf 9.4 TL (Input given in the form:) Tj T* (Student Name : Arpit Kumar | Roll Number : CU25310007 | Course : BCA) Tj T* (Gender : Male | Semester : Semester 2) Tj T*  T* (On clicking Submit, the TextArea shows:) Tj T* (Student Name : Arpit Kumar) Tj T* (Roll Number  : CU25310007) Tj T* (Course       : BCA) Tj T* (Gender       : Female) Tj T* (Semester     : Semester 2) Tj T*  T* (On clicking Reset: all text fields, the gender selection and the) Tj T* (TextArea are cleared and Semester goes back to "Semester 1".) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 377.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q2. Simple Calculator - AWT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 351.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.5 Tm /F1 9.5 Tf 12 TL (Create a Java AWT-based calculator with two TextFields, four Buttons for Addition, Subtraction, Multiplication) Tj T* (and Division, and a result display. Perform the selected operation and handle division by zero.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 55.97008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 283.9 Tm /F3 7.5 Tf 9.4 TL (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends Frame implements ActionListener {) Tj T* (    Label l1, l2, lRes;) Tj T* (    TextField t1, t2, result;) Tj T* (    Button add, sub, mul, div;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Simple Calculator"\);) Tj T* (        setLayout\(new GridLayout\(5, 2, 10, 10\)\);) Tj T*  T* (        l1 = new Label\("First Number:"\);) Tj T* (        t1 = new TextField\(\);) Tj T* (        l2 = new Label\("Second Number:"\);) Tj T* (        t2 = new TextField\(\);) Tj T* (        add = new Button\("Addition"\);) Tj T* (        sub = new Button\("Subtraction"\);) Tj T* (        mul = new Button\("Multiplication"\);) Tj T* (        div = new Button\("Division"\);) Tj T* (        lRes = new Label\("Result:"\);) Tj T* (        result = new TextField\(\);) Tj T* (        result.setEditable\(false\);) Tj T*  T* (        add\(l1\);  add\(t1\);) Tj T* (        add\(l2\);  add\(t2\);) Tj T* (        add\(add\); add\(sub\);) Tj T* (        add\(mul\); add\(div\);) Tj T* (        add\(lRes\); add\(result\);) Tj T*  T* (        add.addActionListener\(this\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+12 0 obj
+<<
+/Contents 40 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 3461
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 389.1701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 396.7 Tm /F3 7.5 Tf 9.4 TL (        sub.addActionListener\(this\);) Tj T* (        mul.addActionListener\(this\);) Tj T* (        div.addActionListener\(this\);) Tj T*  T* (        addWindowListener\(new WindowAdapter\(\) {) Tj T* (            public void windowClosing\(WindowEvent e\) {) Tj T* (                dispose\(\);) Tj T* (            }) Tj T* (        }\);) Tj T*  T* (        setSize\(380, 280\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        double a, b;) Tj T* (        try {) Tj T* (            a = Double.parseDouble\(t1.getText\(\).trim\(\)\);) Tj T* (            b = Double.parseDouble\(t2.getText\(\).trim\(\)\);) Tj T* (        } catch \(NumberFormatException ex\) {) Tj T* (            result.setText\("Invalid input"\);) Tj T* (            return;) Tj T* (        }) Tj T*  T* (        if \(e.getSource\(\) == add\) {) Tj T* (            result.setText\(String.valueOf\(a + b\)\);) Tj T* (        } else if \(e.getSource\(\) == sub\) {) Tj T* (            result.setText\(String.valueOf\(a - b\)\);) Tj T* (        } else if \(e.getSource\(\) == mul\) {) Tj T* (            result.setText\(String.valueOf\(a * b\)\);) Tj T* (        } else if \(e.getSource\(\) == div\) {) Tj T* (            if \(b == 0\) {) Tj T* (                result.setText\("Cannot divide by zero"\);) Tj T* (            } else {) Tj T* (                result.setText\(String.valueOf\(a / b\)\);) Tj T* (            }) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 374.1701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 269.7701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 95.9 Tm /F3 7.5 Tf 9.4 TL (First Number = 20, Second Number = 5) Tj T* (Addition       -> Result: 25.0) Tj T* (Subtraction    -> Result: 15.0) Tj T* (Multiplication -> Result: 100.0) Tj T* (Division       -> Result: 4.0) Tj T*  T* (First Number = 20, Second Number = 0) Tj T* (Division       -> Result: Cannot divide by zero) Tj T*  T* (If a field is empty or not a number:) Tj T* (Result: Invalid input) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 245.7701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q3. Student Login Form - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 219.7701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.5 Tm /F1 9.5 Tf 12 TL -0.12271 Tw (Create a Swing login form with JLabel/JTextField for username, JLabel/JPasswordField for password, Login and) Tj T* 0 Tw (Reset buttons. On Login, compare with predefined credentials and display the result using JOptionPane.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 55.97008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 152.3 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.EmptyBorder;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JLabel lUser, lPass;) Tj T* (    JTextField tUser;) Tj T* (    JPasswordField tPass;) Tj T* (    JButton login, reset;) Tj T*  T* (    // predefined credentials) Tj T* (    final String USERNAME = "arpit";) Tj T* (    final String PASSWORD = "cu123";) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Student Login"\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+14 0 obj
+<<
+/Contents 41 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 4005
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 332.7701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 453.1 Tm /F3 7.5 Tf 9.4 TL (        JPanel panel = new JPanel\(new GridLayout\(3, 2, 10, 15\)\);) Tj T* (        panel.setBorder\(new EmptyBorder\(20, 20, 20, 20\)\);) Tj T*  T* (        lUser = new JLabel\("Username:"\);) Tj T* (        tUser = new JTextField\(15\);) Tj T* (        lPass = new JLabel\("Password:"\);) Tj T* (        tPass = new JPasswordField\(15\);) Tj T* (        login = new JButton\("Login"\);) Tj T* (        reset = new JButton\("Reset"\);) Tj T*  T* (        panel.add\(lUser\);  panel.add\(tUser\);) Tj T* (        panel.add\(lPass\);  panel.add\(tPass\);) Tj T* (        panel.add\(login\);  panel.add\(reset\);) Tj T*  T* (        login.addActionListener\(this\);) Tj T* (        reset.addActionListener\(this\);) Tj T*  T* (        add\(panel\);) Tj T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(350, 220\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == login\) {) Tj T* (            String user = tUser.getText\(\).trim\(\);) Tj T* (            String pass = new String\(tPass.getPassword\(\)\);) Tj T*  T* (            if \(user.isEmpty\(\) || pass.isEmpty\(\)\) {) Tj T* (                JOptionPane.showMessageDialog\(this, "Please enter username and password.",) Tj T* (                        "Warning", JOptionPane.WARNING_MESSAGE\);) Tj T* (            } else if \(user.equals\(USERNAME\) && pass.equals\(PASSWORD\)\) {) Tj T* (                JOptionPane.showMessageDialog\(this, "Login Successful! Welcome, " + user + ".",) Tj T* (                        "Login", JOptionPane.INFORMATION_MESSAGE\);) Tj T* (            } else {) Tj T* (                JOptionPane.showMessageDialog\(this, "Invalid username or password.",) Tj T* (                        "Login Failed", JOptionPane.ERROR_MESSAGE\);) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == reset\) {) Tj T* (            tUser.setText\(""\);) Tj T* (            tPass.setText\(""\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 317.7701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 203.9701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 105.3 Tm /F3 7.5 Tf 9.4 TL (Predefined credentials: username = arpit, password = cu123) Tj T*  T* (Username: arpit, Password: cu123, click Login) Tj T* (JOptionPane message: Login Successful! Welcome, arpit.) Tj T*  T* (Username: arpit, Password: wrong, click Login) Tj T* (JOptionPane message: Invalid username or password.) Tj T*  T* (Username or Password left empty, click Login) Tj T* (JOptionPane message: Please enter username and password.) Tj T*  T* (On clicking Reset: username and password fields are cleared.) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 179.9701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q4. Student Marksheet GUI - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.9701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.5 Tm /F1 9.5 Tf 12 TL (Create a Swing application accepting marks for English, Mathematics, Java, DBMS and Computer Networks.) Tj T* (Add a Calculate Result button to display total, percentage, grade and pass/fail status.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 55.97008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 86.5 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.EmptyBorder;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    String[] subjects = {"English", "Mathematics", "Java", "DBMS", "Computer Networks"};) Tj T* (    JTextField[] marks = new JTextField[5];) Tj T* (    JButton calculate;) Tj T* (    JTextArea result;) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+16 0 obj
+<<
+/Contents 42 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 3092
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 135.3701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 650.5 Tm /F3 7.5 Tf 9.4 TL (    Main\(\) {) Tj T* (        setTitle\("Student Marksheet"\);) Tj T* (        setLayout\(new BorderLayout\(10, 10\)\);) Tj T*  T* (        JPanel panel = new JPanel\(new GridLayout\(6, 2, 10, 10\)\);) Tj T* (        panel.setBorder\(new EmptyBorder\(15, 20, 5, 20\)\);) Tj T*  T* (        for \(int i = 0; i < 5; i++\) {) Tj T* (            panel.add\(new JLabel\(subjects[i] + " \(out of 100\):"\)\);) Tj T* (            marks[i] = new JTextField\(\);) Tj T* (            panel.add\(marks[i]\);) Tj T* (        }) Tj T* (        calculate = new JButton\("Calculate Result"\);) Tj T* (        panel.add\(new JLabel\(""\)\);) Tj T* (        panel.add\(calculate\);) Tj T* (        calculate.addActionListener\(this\);) Tj T*  T* (        result = new JTextArea\(6, 25\);) Tj T* (        result.setEditable\(false\);) Tj T* (        result.setBorder\(new EmptyBorder\(8, 20, 8, 20\)\);) Tj T*  T* (        add\(panel, BorderLayout.CENTER\);) Tj T* (        add\(result, BorderLayout.SOUTH\);) Tj T*  T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(420, 450\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        int total = 0;) Tj T* (        boolean pass = true;) Tj T* (        try {) Tj T* (            for \(int i = 0; i < 5; i++\) {) Tj T* (                int m = Integer.parseInt\(marks[i].getText\(\).trim\(\)\);) Tj T* (                if \(m < 0 || m > 100\) {) Tj T* (                    JOptionPane.showMessageDialog\(this, "Marks must be between 0 and 100."\);) Tj T* (                    return;) Tj T* (                }) Tj T* (                total += m;) Tj T* (                if \(m < 40\) {) Tj T* (                    pass = false;) Tj T* (                }) Tj T* (            }) Tj T* (        } catch \(NumberFormatException ex\) {) Tj T* (            JOptionPane.showMessageDialog\(this, "Please enter valid marks in all fields."\);) Tj T* (            return;) Tj T* (        }) Tj T*  T* (        double percentage = total / 5.0;) Tj T* (        String grade;) Tj T* (        if \(!pass\) grade = "F";) Tj T* (        else if \(percentage >= 90\) grade = "A+";) Tj T* (        else if \(percentage >= 80\) grade = "A";) Tj T* (        else if \(percentage >= 70\) grade = "B+";) Tj T* (        else if \(percentage >= 60\) grade = "B";) Tj T* (        else if \(percentage >= 50\) grade = "C";) Tj T* (        else grade = "D";) Tj T*  T* (        result.setText\("Total Marks : " + total + " / 500\\n") Tj T* (                + "Percentage  : " + String.format\("%.2f", percentage\) + " %\\n") Tj T* (                + "Grade       : " + grade + "\\n") Tj T* (                + "Status      : " + \(pass ? "PASS" : "FAIL"\)\);) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+18 0 obj
+<<
+/Contents 43 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 3901
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 781.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 639.3701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 133.5 Tm /F3 7.5 Tf 9.4 TL (Marks: English 78, Mathematics 85, Java 92, DBMS 67, Computer Networks 88) Tj T* (On clicking Calculate Result:) Tj T* (Total Marks : 410 / 500) Tj T* (Percentage  : 82.00 %) Tj T* (Grade       : A) Tj T* (Status      : PASS) Tj T*  T* (Marks: English 78, Mathematics 85, Java 92, DBMS 35, Computer Networks 88) Tj T* (Total Marks : 378 / 500) Tj T* (Percentage  : 75.60 %) Tj T* (Grade       : F) Tj T* (Status      : FAIL      \(a subject below 40 marks\)) Tj T*  T* (Invalid or empty marks -> "Please enter valid marks in all fields.") Tj T* (Marks outside 0-100    -> "Marks must be between 0 and 100.") Tj T* ET
+Q
+q
+1 0 0 1 62.69291 615.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q5. Course Selection Form - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 577.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26.5 Tm /F1 9.5 Tf 12 TL (Create a Swing GUI with Student Name \(JTextField\), Course \(JComboBox\), Gender \(JRadioButton\), Subjects) Tj T* (\(multiple JCheckBox\), Submit and Reset buttons. Submit should display all selected information using) Tj T* (JOptionPane.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 56.37008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 509.5 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.EmptyBorder;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JTextField tName;) Tj T* (    JComboBox<String> course;) Tj T* (    JRadioButton male, female, other;) Tj T* (    ButtonGroup genderGroup;) Tj T* (    JCheckBox[] subjects = new JCheckBox[4];) Tj T* (    JButton submit, reset;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Course Selection Form"\);) Tj T*  T* (        JPanel panel = new JPanel\(new GridLayout\(6, 2, 10, 12\)\);) Tj T* (        panel.setBorder\(new EmptyBorder\(15, 20, 15, 20\)\);) Tj T*  T* (        tName = new JTextField\(\);) Tj T* (        course = new JComboBox<>\(new String[]{"BCA", "BBA", "BTech", "MCA", "MBA"}\);) Tj T*  T* (        male = new JRadioButton\("Male"\);) Tj T* (        female = new JRadioButton\("Female"\);) Tj T* (        other = new JRadioButton\("Other"\);) Tj T* (        genderGroup = new ButtonGroup\(\);) Tj T* (        genderGroup.add\(male\);) Tj T* (        genderGroup.add\(female\);) Tj T* (        genderGroup.add\(other\);) Tj T* (        JPanel genderPanel = new JPanel\(new FlowLayout\(FlowLayout.LEFT, 5, 0\)\);) Tj T* (        genderPanel.add\(male\);) Tj T* (        genderPanel.add\(female\);) Tj T* (        genderPanel.add\(other\);) Tj T*  T* (        String[] names = {"Java", "DBMS", "Mathematics", "Computer Networks"};) Tj T* (        JPanel subjectPanel = new JPanel\(new GridLayout\(2, 2\)\);) Tj T* (        for \(int i = 0; i < 4; i++\) {) Tj T* (            subjects[i] = new JCheckBox\(names[i]\);) Tj T* (            subjectPanel.add\(subjects[i]\);) Tj T* (        }) Tj T*  T* (        submit = new JButton\("Submit"\);) Tj T* (        reset = new JButton\("Reset"\);) Tj T*  T* (        panel.add\(new JLabel\("Student Name:"\)\); panel.add\(tName\);) Tj T* (        panel.add\(new JLabel\("Course:"\)\);       panel.add\(course\);) Tj T* (        panel.add\(new JLabel\("Gender:"\)\);       panel.add\(genderPanel\);) Tj T* (        panel.add\(new JLabel\("Subjects:"\)\);     panel.add\(subjectPanel\);) Tj T* (        panel.add\(new JLabel\(""\)\);              panel.add\(new JLabel\(""\)\);) Tj T* (        panel.add\(submit\);                      panel.add\(reset\);) Tj T*  T* (        submit.addActionListener\(this\);) Tj T* (        reset.addActionListener\(this\);) Tj T*  T* (        add\(panel\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+20 0 obj
+<<
+/Contents 44 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 3836
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 370.3701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 415.5 Tm /F3 7.5 Tf 9.4 TL (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(450, 340\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == submit\) {) Tj T* (            String gender = "Not selected";) Tj T* (            if \(male.isSelected\(\)\) gender = "Male";) Tj T* (            else if \(female.isSelected\(\)\) gender = "Female";) Tj T* (            else if \(other.isSelected\(\)\) gender = "Other";) Tj T*  T* (            String selected = "";) Tj T* (            for \(JCheckBox cb : subjects\) {) Tj T* (                if \(cb.isSelected\(\)\) {) Tj T* (                    selected += cb.getText\(\) + ", ";) Tj T* (                }) Tj T* (            }) Tj T* (            if \(selected.isEmpty\(\)\) {) Tj T* (                selected = "None";) Tj T* (            } else {) Tj T* (                selected = selected.substring\(0, selected.length\(\) - 2\);) Tj T* (            }) Tj T*  T* (            JOptionPane.showMessageDialog\(this,) Tj T* (                    "Student Name : " + tName.getText\(\) + "\\n") Tj T* (                    + "Course       : " + course.getSelectedItem\(\) + "\\n") Tj T* (                    + "Gender       : " + gender + "\\n") Tj T* (                    + "Subjects     : " + selected,) Tj T* (                    "Selected Information", JOptionPane.INFORMATION_MESSAGE\);) Tj T* (        } else if \(e.getSource\(\) == reset\) {) Tj T* (            tName.setText\(""\);) Tj T* (            course.setSelectedIndex\(0\);) Tj T* (            genderGroup.clearSelection\(\);) Tj T* (            for \(JCheckBox cb : subjects\) {) Tj T* (                cb.setSelected\(false\);) Tj T* (            }) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 355.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 250.9701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 95.9 Tm /F3 7.5 Tf 9.4 TL (Input: Name = Arpit Kumar, Course = BCA, Gender = Male,) Tj T* (Subjects = Java and DBMS selected) Tj T*  T* (On clicking Submit, JOptionPane shows \(title: Selected Information\):) Tj T* (Student Name : Arpit Kumar) Tj T* (Course       : BCA) Tj T* (Gender       : Female) Tj T* (Subjects     : Java, DBMS) Tj T*  T* (On clicking Reset: name is cleared, course goes back to BCA, gender and) Tj T* (subject selections are removed.) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 226.9701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q6. Employee Registration Form - AWT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 188.9701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26.5 Tm /F1 9.5 Tf 12 TL (Create an AWT Employee Registration Form with Employee ID, Name, Department, Designation, Salary,) Tj T* -0.001981 Tw (Gender, Department selection, Submit and Clear buttons. Display submitted information in a TextArea and clear) Tj T* 0 Tw (fields using Clear.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 53.37008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 124.1 Tm /F3 7.5 Tf 9.4 TL (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends Frame implements ActionListener {) Tj T* (    TextField tId, tName, tDesignation, tSalary;) Tj T* (    CheckboxGroup genderGroup;) Tj T* (    Checkbox male, female;) Tj T* (    Choice department;) Tj T* (    Button submit, clear;) Tj T* (    TextArea output;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Employee Registration Form"\);) Tj T* (        setLayout\(new BorderLayout\(10, 10\)\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+22 0 obj
+<<
+/Contents 45 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+23 0 obj
+<<
+/Length 3656
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 69.57008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 716.3 Tm /F3 7.5 Tf 9.4 TL (        Panel form = new Panel\(new GridLayout\(7, 2, 10, 10\)\);) Tj T*  T* (        tId = new TextField\(\);) Tj T* (        tName = new TextField\(\);) Tj T* (        tDesignation = new TextField\(\);) Tj T* (        tSalary = new TextField\(\);) Tj T*  T* (        genderGroup = new CheckboxGroup\(\);) Tj T* (        male = new Checkbox\("Male", genderGroup, false\);) Tj T* (        female = new Checkbox\("Female", genderGroup, false\);) Tj T* (        Panel genderPanel = new Panel\(new FlowLayout\(FlowLayout.LEFT\)\);) Tj T* (        genderPanel.add\(male\);) Tj T* (        genderPanel.add\(female\);) Tj T*  T* (        department = new Choice\(\);) Tj T* (        department.add\("Computer Science"\);) Tj T* (        department.add\("Information Technology"\);) Tj T* (        department.add\("Human Resources"\);) Tj T* (        department.add\("Finance"\);) Tj T* (        department.add\("Sales"\);) Tj T*  T* (        submit = new Button\("Submit"\);) Tj T* (        clear = new Button\("Clear"\);) Tj T*  T* (        form.add\(new Label\("Employee ID:"\)\);   form.add\(tId\);) Tj T* (        form.add\(new Label\("Name:"\)\);          form.add\(tName\);) Tj T* (        form.add\(new Label\("Designation:"\)\);   form.add\(tDesignation\);) Tj T* (        form.add\(new Label\("Salary:"\)\);        form.add\(tSalary\);) Tj T* (        form.add\(new Label\("Gender:"\)\);        form.add\(genderPanel\);) Tj T* (        form.add\(new Label\("Department:"\)\);    form.add\(department\);) Tj T* (        form.add\(submit\);                      form.add\(clear\);) Tj T*  T* (        output = new TextArea\(7, 30\);) Tj T* (        output.setEditable\(false\);) Tj T*  T* (        add\(new Label\("   "\), BorderLayout.WEST\);) Tj T* (        add\(form, BorderLayout.CENTER\);) Tj T* (        add\(output, BorderLayout.SOUTH\);) Tj T*  T* (        submit.addActionListener\(this\);) Tj T* (        clear.addActionListener\(this\);) Tj T*  T* (        addWindowListener\(new WindowAdapter\(\) {) Tj T* (            public void windowClosing\(WindowEvent e\) {) Tj T* (                dispose\(\);) Tj T* (            }) Tj T* (        }\);) Tj T*  T* (        setSize\(440, 540\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == submit\) {) Tj T* (            Checkbox sel = genderGroup.getSelectedCheckbox\(\);) Tj T* (            String gender = \(sel == null\) ? "Not selected" : sel.getLabel\(\);) Tj T* (            output.setText\("Employee ID : " + tId.getText\(\) + "\\n") Tj T* (                    + "Name        : " + tName.getText\(\) + "\\n") Tj T* (                    + "Designation : " + tDesignation.getText\(\) + "\\n") Tj T* (                    + "Salary      : " + tSalary.getText\(\) + "\\n") Tj T* (                    + "Gender      : " + gender + "\\n") Tj T* (                    + "Department  : " + department.getSelectedItem\(\)\);) Tj T* (        } else if \(e.getSource\(\) == clear\) {) Tj T* (            tId.setText\(""\);) Tj T* (            tName.setText\(""\);) Tj T* (            tDesignation.setText\(""\);) Tj T* (            tSalary.setText\(""\);) Tj T* (            genderGroup.setSelectedCheckbox\(null\);) Tj T* (            department.select\(0\);) Tj T* (            output.setText\(""\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+24 0 obj
+<<
+/Contents 46 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 3473
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 781.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 658.1701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 114.7 Tm /F3 7.5 Tf 9.4 TL (Input: Employee ID = E101, Name = Arpit Kumar, Designation = Software Developer,) Tj T* (Salary = 55000, Gender = Male, Department = Computer Science) Tj T*  T* (On clicking Submit, the TextArea shows:) Tj T* (Employee ID : E101) Tj T* (Name        : Arpit Kumar) Tj T* (Designation : Software Developer) Tj T* (Salary      : 55000) Tj T* (Gender      : Female) Tj T* (Department  : Computer Science) Tj T*  T* (On clicking Clear: all fields, gender and the TextArea are cleared and) Tj T* (Department goes back to "Computer Science".) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 634.1701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q7. Temperature Converter - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 596.1701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26.5 Tm /F1 9.5 Tf 12 TL (Create a Swing temperature converter with a temperature TextField, Celsius-to-Fahrenheit and) Tj T* (Fahrenheit-to-Celsius radio buttons, Convert and Clear buttons, and result display. Use F=\(C*9/5\)+32 and) Tj T* (C=\(F-32\)*5/9. Handle invalid input.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 56.37008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 528.3 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.EmptyBorder;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JTextField tTemp;) Tj T* (    JRadioButton cToF, fToC;) Tj T* (    ButtonGroup group;) Tj T* (    JButton convert, clear;) Tj T* (    JLabel result;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Temperature Converter"\);) Tj T*  T* (        JPanel panel = new JPanel\(new GridLayout\(4, 1, 8, 12\)\);) Tj T* (        panel.setBorder\(new EmptyBorder\(15, 20, 15, 20\)\);) Tj T*  T* (        JPanel p1 = new JPanel\(new FlowLayout\(\)\);) Tj T* (        p1.add\(new JLabel\("Temperature:"\)\);) Tj T* (        tTemp = new JTextField\(12\);) Tj T* (        p1.add\(tTemp\);) Tj T*  T* (        cToF = new JRadioButton\("Celsius to Fahrenheit", true\);) Tj T* (        fToC = new JRadioButton\("Fahrenheit to Celsius"\);) Tj T* (        group = new ButtonGroup\(\);) Tj T* (        group.add\(cToF\);) Tj T* (        group.add\(fToC\);) Tj T* (        JPanel p2 = new JPanel\(new FlowLayout\(\)\);) Tj T* (        p2.add\(cToF\);) Tj T* (        p2.add\(fToC\);) Tj T*  T* (        convert = new JButton\("Convert"\);) Tj T* (        clear = new JButton\("Clear"\);) Tj T* (        JPanel p3 = new JPanel\(new FlowLayout\(\)\);) Tj T* (        p3.add\(convert\);) Tj T* (        p3.add\(clear\);) Tj T*  T* (        result = new JLabel\("Result: ", SwingConstants.CENTER\);) Tj T* (        result.setFont\(new Font\("Arial", Font.BOLD, 14\)\);) Tj T*  T* (        panel.add\(p1\);) Tj T* (        panel.add\(p2\);) Tj T* (        panel.add\(p3\);) Tj T* (        panel.add\(result\);) Tj T*  T* (        convert.addActionListener\(this\);) Tj T* (        clear.addActionListener\(this\);) Tj T*  T* (        add\(panel\);) Tj T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(430, 270\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+26 0 obj
+<<
+/Contents 47 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+27 0 obj
+<<
+/Length 3899
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 548.9701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 236.9 Tm /F3 7.5 Tf 9.4 TL (        if \(e.getSource\(\) == convert\) {) Tj T* (            try {) Tj T* (                double temp = Double.parseDouble\(tTemp.getText\(\).trim\(\)\);) Tj T* (                if \(cToF.isSelected\(\)\) {) Tj T* (                    double f = \(temp * 9 / 5\) + 32;) Tj T* (                    result.setText\("Result: " + temp + " C = " + String.format\("%.2f", f\) + " F"\);) Tj T* (                } else {) Tj T* (                    double c = \(temp - 32\) * 5 / 9;) Tj T* (                    result.setText\("Result: " + temp + " F = " + String.format\("%.2f", c\) + " C"\);) Tj T* (                }) Tj T* (            } catch \(NumberFormatException ex\) {) Tj T* (                JOptionPane.showMessageDialog\(this, "Invalid input! Please enter a valid number.",) Tj T* (                        "Error", JOptionPane.ERROR_MESSAGE\);) Tj T* (                result.setText\("Result: "\);) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == clear\) {) Tj T* (            tTemp.setText\(""\);) Tj T* (            result.setText\("Result: "\);) Tj T* (            cToF.setSelected\(true\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 533.9701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 429.5701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 95.9 Tm /F3 7.5 Tf 9.4 TL (Temperature = 100, "Celsius to Fahrenheit" selected, click Convert) Tj T* (Result: 100.0 C = 212.00 F) Tj T*  T* (Temperature = 98.6, "Fahrenheit to Celsius" selected, click Convert) Tj T* (Result: 98.6 F = 37.00 C) Tj T*  T* (Temperature = abc, click Convert) Tj T* (JOptionPane \(Error\): Invalid input! Please enter a valid number.) Tj T*  T* (On clicking Clear: the field and result are cleared and) Tj T* ("Celsius to Fahrenheit" is selected again.) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 405.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q8. Simple Notepad - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 379.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.5 Tm /F1 9.5 Tf 12 TL (Create a basic Swing Notepad with JTextArea and a menu bar containing File -> New, Open, Save and Exit.) Tj T* (New clears the text area; Open selects a text file; Save writes the contents to a file; Exit closes the application.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 55.97008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 312.1 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T* (import java.io.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JTextArea textArea;) Tj T* (    JMenuBar menuBar;) Tj T* (    JMenu fileMenu;) Tj T* (    JMenuItem newItem, openItem, saveItem, exitItem;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Simple Notepad"\);) Tj T*  T* (        textArea = new JTextArea\(\);) Tj T* (        textArea.setFont\(new Font\("Monospaced", Font.PLAIN, 14\)\);) Tj T* (        add\(new JScrollPane\(textArea\), BorderLayout.CENTER\);) Tj T*  T* (        menuBar = new JMenuBar\(\);) Tj T* (        fileMenu = new JMenu\("File"\);) Tj T* (        newItem = new JMenuItem\("New"\);) Tj T* (        openItem = new JMenuItem\("Open"\);) Tj T* (        saveItem = new JMenuItem\("Save"\);) Tj T* (        exitItem = new JMenuItem\("Exit"\);) Tj T*  T* (        fileMenu.add\(newItem\);) Tj T* (        fileMenu.add\(openItem\);) Tj T* (        fileMenu.add\(saveItem\);) Tj T* (        fileMenu.addSeparator\(\);) Tj T* (        fileMenu.add\(exitItem\);) Tj T* (        menuBar.add\(fileMenu\);) Tj T* (        setJMenuBar\(menuBar\);) Tj T*  T* (        newItem.addActionListener\(this\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+28 0 obj
+<<
+/Contents 48 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 4110
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 351.5701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 434.3 Tm /F3 7.5 Tf 9.4 TL (        openItem.addActionListener\(this\);) Tj T* (        saveItem.addActionListener\(this\);) Tj T* (        exitItem.addActionListener\(this\);) Tj T*  T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(600, 400\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        JFileChooser chooser = new JFileChooser\(\);) Tj T*  T* (        if \(e.getSource\(\) == newItem\) {) Tj T* (            textArea.setText\(""\);) Tj T* (        } else if \(e.getSource\(\) == openItem\) {) Tj T* (            if \(chooser.showOpenDialog\(this\) == JFileChooser.APPROVE_OPTION\) {) Tj T* (                File file = chooser.getSelectedFile\(\);) Tj T* (                try {) Tj T* (                    BufferedReader br = new BufferedReader\(new FileReader\(file\)\);) Tj T* (                    textArea.read\(br, null\);) Tj T* (                    br.close\(\);) Tj T* (                } catch \(IOException ex\) {) Tj T* (                    JOptionPane.showMessageDialog\(this, "Error opening file: " + ex.getMessage\(\)\);) Tj T* (                }) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == saveItem\) {) Tj T* (            if \(chooser.showSaveDialog\(this\) == JFileChooser.APPROVE_OPTION\) {) Tj T* (                File file = chooser.getSelectedFile\(\);) Tj T* (                try {) Tj T* (                    FileWriter fw = new FileWriter\(file\);) Tj T* (                    textArea.write\(fw\);) Tj T* (                    fw.close\(\);) Tj T* (                    JOptionPane.showMessageDialog\(this, "File saved successfully."\);) Tj T* (                } catch \(IOException ex\) {) Tj T* (                    JOptionPane.showMessageDialog\(this, "Error saving file: " + ex.getMessage\(\)\);) Tj T* (                }) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == exitItem\) {) Tj T* (            System.exit\(0\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 336.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.3701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 114.7 Tm /F3 7.5 Tf 9.4 TL (Menu bar:  File -> New | Open | Save | ---- | Exit) Tj T*  T* (Typing in the text area:) Tj T* (Hello, this is my Java Notepad.) Tj T* (File handling with Swing is fun!) Tj T* (- Arpit Kumar) Tj T*  T* (File -> New   : the text area is cleared.) Tj T* (File -> Open  : a JFileChooser opens; the selected text file is loaded) Tj T* (                into the text area.) Tj T* (File -> Save  : a JFileChooser opens; the contents are written to the) Tj T* (                chosen file and "File saved successfully." is shown.) Tj T* (File -> Exit  : the application closes.) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 189.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q9. Student Feedback Form - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 139.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38.5 Tm /F1 9.5 Tf 12 TL (Create a Swing Student Feedback Form with Student Name, Roll Number, Course, rating radio buttons) Tj T* (\(Excellent, Very Good, Good, Average, Poor\), feedback checkboxes \(Teaching, Laboratory, Course Material,) Tj T* (Assignments\), Comments JTextArea, Submit and Reset. Submit should display all feedback using) Tj T* (JOptionPane.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 50.77008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 77.1 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.*;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JTextField tName, tRoll, tCourse;) Tj T* (    JRadioButton[] rating = new JRadioButton[5];) Tj T* (    ButtonGroup ratingGroup;) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+30 0 obj
+<<
+/Contents 49 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+31 0 obj
+<<
+/Length 3791
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 50.77008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 735.1 Tm /F3 7.5 Tf 9.4 TL (    JCheckBox[] aspects = new JCheckBox[4];) Tj T* (    JTextArea comments;) Tj T* (    JButton submit, reset;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Student Feedback Form"\);) Tj T* (        setLayout\(new BorderLayout\(10, 10\)\);) Tj T*  T* (        // Top: student details) Tj T* (        JPanel top = new JPanel\(new GridLayout\(3, 2, 10, 10\)\);) Tj T* (        top.setBorder\(new EmptyBorder\(15, 20, 5, 20\)\);) Tj T* (        tName = new JTextField\(\);) Tj T* (        tRoll = new JTextField\(\);) Tj T* (        tCourse = new JTextField\(\);) Tj T* (        top.add\(new JLabel\("Student Name:"\)\); top.add\(tName\);) Tj T* (        top.add\(new JLabel\("Roll Number:"\)\);  top.add\(tRoll\);) Tj T* (        top.add\(new JLabel\("Course:"\)\);       top.add\(tCourse\);) Tj T*  T* (        // Middle: rating and feedback options) Tj T* (        JPanel ratingPanel = new JPanel\(new GridLayout\(5, 1\)\);) Tj T* (        ratingPanel.setBorder\(new TitledBorder\("Rating"\)\);) Tj T* (        String[] r = {"Excellent", "Very Good", "Good", "Average", "Poor"};) Tj T* (        ratingGroup = new ButtonGroup\(\);) Tj T* (        for \(int i = 0; i < 5; i++\) {) Tj T* (            rating[i] = new JRadioButton\(r[i]\);) Tj T* (            ratingGroup.add\(rating[i]\);) Tj T* (            ratingPanel.add\(rating[i]\);) Tj T* (        }) Tj T*  T* (        JPanel aspectPanel = new JPanel\(new GridLayout\(4, 1\)\);) Tj T* (        aspectPanel.setBorder\(new TitledBorder\("Feedback On"\)\);) Tj T* (        String[] a = {"Teaching", "Laboratory", "Course Material", "Assignments"};) Tj T* (        for \(int i = 0; i < 4; i++\) {) Tj T* (            aspects[i] = new JCheckBox\(a[i]\);) Tj T* (            aspectPanel.add\(aspects[i]\);) Tj T* (        }) Tj T*  T* (        JPanel options = new JPanel\(new GridLayout\(1, 2, 10, 10\)\);) Tj T* (        options.setBorder\(new EmptyBorder\(0, 20, 0, 20\)\);) Tj T* (        options.add\(ratingPanel\);) Tj T* (        options.add\(aspectPanel\);) Tj T*  T* (        comments = new JTextArea\(4, 20\);) Tj T* (        JScrollPane sp = new JScrollPane\(comments\);) Tj T* (        sp.setBorder\(new TitledBorder\("Comments"\)\);) Tj T* (        JPanel commentPanel = new JPanel\(new BorderLayout\(\)\);) Tj T* (        commentPanel.setBorder\(new EmptyBorder\(0, 20, 0, 20\)\);) Tj T* (        commentPanel.add\(sp\);) Tj T*  T* (        JPanel center = new JPanel\(new BorderLayout\(5, 5\)\);) Tj T* (        center.add\(options, BorderLayout.NORTH\);) Tj T* (        center.add\(commentPanel, BorderLayout.CENTER\);) Tj T*  T* (        // Bottom: buttons) Tj T* (        submit = new JButton\("Submit"\);) Tj T* (        reset = new JButton\("Reset"\);) Tj T* (        JPanel bottom = new JPanel\(new FlowLayout\(\)\);) Tj T* (        bottom.add\(submit\);) Tj T* (        bottom.add\(reset\);) Tj T*  T* (        submit.addActionListener\(this\);) Tj T* (        reset.addActionListener\(this\);) Tj T*  T* (        add\(top, BorderLayout.NORTH\);) Tj T* (        add\(center, BorderLayout.CENTER\);) Tj T* (        add\(bottom, BorderLayout.SOUTH\);) Tj T*  T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(470, 520\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == submit\) {) Tj T* (            String rate = "Not selected";) Tj T* (            for \(JRadioButton rb : rating\) {) Tj T* (                if \(rb.isSelected\(\)\) rate = rb.getText\(\);) Tj T* (            }) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+32 0 obj
+<<
+/Contents 50 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 4444
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 530.1701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 255.7 Tm /F3 7.5 Tf 9.4 TL (            String areas = "";) Tj T* (            for \(JCheckBox cb : aspects\) {) Tj T* (                if \(cb.isSelected\(\)\) areas += cb.getText\(\) + ", ";) Tj T* (            }) Tj T* (            areas = areas.isEmpty\(\) ? "None" : areas.substring\(0, areas.length\(\) - 2\);) Tj T*  T* (            JOptionPane.showMessageDialog\(this,) Tj T* (                    "Student Name : " + tName.getText\(\) + "\\n") Tj T* (                    + "Roll Number  : " + tRoll.getText\(\) + "\\n") Tj T* (                    + "Course       : " + tCourse.getText\(\) + "\\n") Tj T* (                    + "Rating       : " + rate + "\\n") Tj T* (                    + "Feedback On  : " + areas + "\\n") Tj T* (                    + "Comments     : " + comments.getText\(\),) Tj T* (                    "Feedback Submitted", JOptionPane.INFORMATION_MESSAGE\);) Tj T* (        } else if \(e.getSource\(\) == reset\) {) Tj T* (            tName.setText\(""\);) Tj T* (            tRoll.setText\(""\);) Tj T* (            tCourse.setText\(""\);) Tj T* (            ratingGroup.clearSelection\(\);) Tj T* (            for \(JCheckBox cb : aspects\) cb.setSelected\(false\);) Tj T* (            comments.setText\(""\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 515.1701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 382.5701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 124.1 Tm /F3 7.5 Tf 9.4 TL (Input: Name = Arpit Kumar, Roll Number = CU25310007, Course = BCA,) Tj T* (Rating = Very Good, Feedback On = Teaching, Laboratory,) Tj T* (Comments = Labs are very helpful. Please add more practice sheets.) Tj T*  T* (On clicking Submit, JOptionPane shows \(title: Feedback Submitted\):) Tj T* (Student Name : Arpit Kumar) Tj T* (Roll Number  : CU25310007) Tj T* (Course       : BCA) Tj T* (Rating       : Very Good) Tj T* (Feedback On  : Teaching, Laboratory) Tj T* (Comments     : Labs are very helpful.) Tj T* (Please add more practice sheets.) Tj T*  T* (On clicking Reset: all fields, rating, checkboxes and comments are cleared.) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 358.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q10. Mini Banking GUI Application - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 320.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26.5 Tm /F1 9.5 Tf 12 TL (Create a Swing Mini Banking Application with Account Number, Customer Name, Current Balance, Amount and) Tj T* (buttons Deposit, Withdraw, Check Balance and Clear. Deposit adds amount; Withdraw subtracts it only when) Tj T* (sufficient balance exists; Check Balance displays balance; Clear clears inputs. Use JOptionPane for messages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 62.77008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 246.3 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.EmptyBorder;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JTextField tAccNo, tName, tBalance, tAmount;) Tj T* (    JButton deposit, withdraw, check, clear;) Tj T* (    double balance = 5000.00;   // opening balance) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Mini Banking Application"\);) Tj T* (        setLayout\(new BorderLayout\(10, 10\)\);) Tj T*  T* (        JPanel form = new JPanel\(new GridLayout\(4, 2, 10, 12\)\);) Tj T* (        form.setBorder\(new EmptyBorder\(20, 20, 5, 20\)\);) Tj T*  T* (        tAccNo = new JTextField\(\);) Tj T* (        tName = new JTextField\(\);) Tj T* (        tBalance = new JTextField\(String.format\("%.2f", balance\)\);) Tj T* (        tBalance.setEditable\(false\);) Tj T* (        tAmount = new JTextField\(\);) Tj T*  T* (        form.add\(new JLabel\("Account Number:"\)\); form.add\(tAccNo\);) Tj T* (        form.add\(new JLabel\("Customer Name:"\)\);  form.add\(tName\);) Tj T* (        form.add\(new JLabel\("Current Balance:"\)\); form.add\(tBalance\);) Tj T* (        form.add\(new JLabel\("Amount:"\)\);         form.add\(tAmount\);) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 53.37008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 1.9 Tm /F3 7.5 Tf 9.4 TL (        deposit = new JButton\("Deposit"\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+34 0 obj
+<<
+/Contents 51 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 3476
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 107.1701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 678.7 Tm /F3 7.5 Tf 9.4 TL (        withdraw = new JButton\("Withdraw"\);) Tj T* (        check = new JButton\("Check Balance"\);) Tj T* (        clear = new JButton\("Clear"\);) Tj T* (        JPanel buttons = new JPanel\(new GridLayout\(1, 4, 8, 8\)\);) Tj T* (        buttons.setBorder\(new EmptyBorder\(5, 20, 20, 20\)\);) Tj T* (        buttons.add\(deposit\);) Tj T* (        buttons.add\(withdraw\);) Tj T* (        buttons.add\(check\);) Tj T* (        buttons.add\(clear\);) Tj T*  T* (        deposit.addActionListener\(this\);) Tj T* (        withdraw.addActionListener\(this\);) Tj T* (        check.addActionListener\(this\);) Tj T* (        clear.addActionListener\(this\);) Tj T*  T* (        add\(form, BorderLayout.CENTER\);) Tj T* (        add\(buttons, BorderLayout.SOUTH\);) Tj T*  T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(520, 250\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    double readAmount\(\) {) Tj T* (        try {) Tj T* (            double amt = Double.parseDouble\(tAmount.getText\(\).trim\(\)\);) Tj T* (            if \(amt <= 0\) {) Tj T* (                JOptionPane.showMessageDialog\(this, "Amount must be greater than zero.",) Tj T* (                        "Invalid Amount", JOptionPane.WARNING_MESSAGE\);) Tj T* (                return -1;) Tj T* (            }) Tj T* (            return amt;) Tj T* (        } catch \(NumberFormatException ex\) {) Tj T* (            JOptionPane.showMessageDialog\(this, "Please enter a valid amount.",) Tj T* (                    "Invalid Input", JOptionPane.ERROR_MESSAGE\);) Tj T* (            return -1;) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == deposit\) {) Tj T* (            double amt = readAmount\(\);) Tj T* (            if \(amt > 0\) {) Tj T* (                balance += amt;) Tj T* (                tBalance.setText\(String.format\("%.2f", balance\)\);) Tj T* (                JOptionPane.showMessageDialog\(this, "Rs. " + amt + " deposited successfully."\);) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == withdraw\) {) Tj T* (            double amt = readAmount\(\);) Tj T* (            if \(amt > 0\) {) Tj T* (                if \(amt <= balance\) {) Tj T* (                    balance -= amt;) Tj T* (                    tBalance.setText\(String.format\("%.2f", balance\)\);) Tj T* (                    JOptionPane.showMessageDialog\(this, "Rs. " + amt + " withdrawn successfully."\);) Tj T* (                } else {) Tj T* (                    JOptionPane.showMessageDialog\(this, "Insufficient balance!",) Tj T* (                            "Error", JOptionPane.ERROR_MESSAGE\);) Tj T* (                }) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == check\) {) Tj T* (            JOptionPane.showMessageDialog\(this, "Current Balance: Rs. " + String.format\("%.2f", balance\)\);) Tj T* (        } else if \(e.getSource\(\) == clear\) {) Tj T* (            tAccNo.setText\(""\);) Tj T* (            tName.setText\(""\);) Tj T* (            tAmount.setText\(""\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+36 0 obj
+<<
+/Contents 52 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+37 0 obj
+<<
+/Length 977
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 781.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 611.1701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 161.7 Tm /F3 7.5 Tf 9.4 TL (Opening balance: 5000.00) Tj T* (Account Number = 1001, Customer Name = Arpit Kumar) Tj T*  T* (Amount = 2000, click Deposit) Tj T* (JOptionPane: Rs. 2000.0 deposited successfully.   \(Balance: 7000.00\)) Tj T*  T* (Amount = 10000, click Withdraw) Tj T* (JOptionPane \(Error\): Insufficient balance!        \(Balance: 7000.00\)) Tj T*  T* (Amount = 1500, click Withdraw) Tj T* (JOptionPane: Rs. 1500.0 withdrawn successfully.   \(Balance: 5500.00\)) Tj T*  T* (Click Check Balance) Tj T* (JOptionPane: Current Balance: Rs. 5500.00) Tj T*  T* (Invalid / negative amount -> "Please enter a valid amount." /) Tj T* ("Amount must be greater than zero.") Tj T* (On clicking Clear: account number, name and amount are cleared.) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+38 0 obj
+<<
+/Length 3633
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 773.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL 180.2729 0 Td (LABSHEET-11) Tj T* -180.2729 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 746.3701 cm
+q
+BT 1 0 0 1 0 3 Tm 174.0849 0 Td 13 TL /F1 10 Tf 0 0 0 rg (Java GUI & Event Handling) Tj T* -174.0849 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 712.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q1. Student Registration Form - AWT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 674.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26.5 Tm /F1 9.5 Tf 12 TL (Create a Java AWT application to design a Student Registration Form containing Label and TextField for) Tj T* (Student Name, Roll Number and Course; Checkbox for Gender; Choice for Semester; Submit and Reset) Tj T* (buttons. Submit should display entered information; Reset should clear all fields.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 49.97008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 612.9 Tm /F3 7.5 Tf 9.4 TL (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends Frame implements ActionListener {) Tj T* (    Label lName, lRoll, lCourse, lGender, lSem;) Tj T* (    TextField tName, tRoll, tCourse;) Tj T* (    Checkbox male, female, other;) Tj T* (    CheckboxGroup genderGroup;) Tj T* (    Choice semester;) Tj T* (    Button submit, reset;) Tj T* (    TextArea output;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Student Registration Form"\);) Tj T* (        setLayout\(new BorderLayout\(10, 10\)\);) Tj T*  T* (        Panel form = new Panel\(new GridLayout\(6, 2, 10, 10\)\);) Tj T*  T* (        lName = new Label\("Student Name:"\);) Tj T* (        tName = new TextField\(20\);) Tj T* (        lRoll = new Label\("Roll Number:"\);) Tj T* (        tRoll = new TextField\(20\);) Tj T* (        lCourse = new Label\("Course:"\);) Tj T* (        tCourse = new TextField\(20\);) Tj T*  T* (        lGender = new Label\("Gender:"\);) Tj T* (        genderGroup = new CheckboxGroup\(\);) Tj T* (        male = new Checkbox\("Male", genderGroup, false\);) Tj T* (        female = new Checkbox\("Female", genderGroup, false\);) Tj T* (        other = new Checkbox\("Other", genderGroup, false\);) Tj T* (        Panel genderPanel = new Panel\(new FlowLayout\(FlowLayout.LEFT\)\);) Tj T* (        genderPanel.add\(male\);) Tj T* (        genderPanel.add\(female\);) Tj T* (        genderPanel.add\(other\);) Tj T*  T* (        lSem = new Label\("Semester:"\);) Tj T* (        semester = new Choice\(\);) Tj T* (        for \(int i = 1; i <= 8; i++\) {) Tj T* (            semester.add\("Semester " + i\);) Tj T* (        }) Tj T*  T* (        submit = new Button\("Submit"\);) Tj T* (        reset = new Button\("Reset"\);) Tj T*  T* (        form.add\(lName\);   form.add\(tName\);) Tj T* (        form.add\(lRoll\);   form.add\(tRoll\);) Tj T* (        form.add\(lCourse\); form.add\(tCourse\);) Tj T* (        form.add\(lGender\); form.add\(genderPanel\);) Tj T* (        form.add\(lSem\);    form.add\(semester\);) Tj T* (        form.add\(submit\);  form.add\(reset\);) Tj T*  T* (        output = new TextArea\(6, 30\);) Tj T* (        output.setEditable\(false\);) Tj T*  T* (        add\(new Label\("   "\), BorderLayout.WEST\);) Tj T* (        add\(form, BorderLayout.CENTER\);) Tj T* (        add\(output, BorderLayout.SOUTH\);) Tj T*  T* (        submit.addActionListener\(this\);) Tj T* (        reset.addActionListener\(this\);) Tj T*  T* (        addWindowListener\(new WindowAdapter\(\) {) Tj T* (            public void windowClosing\(WindowEvent e\) {) Tj T* (                dispose\(\);) Tj T* (            }) Tj T* (        }\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+39 0 obj
+<<
+/Length 3786
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 539.5701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 246.3 Tm /F3 7.5 Tf 9.4 TL (        setSize\(430, 470\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == submit\) {) Tj T* (            Checkbox selected = genderGroup.getSelectedCheckbox\(\);) Tj T* (            String gender = \(selected == null\) ? "Not selected" : selected.getLabel\(\);) Tj T* (            output.setText\("Student Name : " + tName.getText\(\) + "\\n") Tj T* (                    + "Roll Number  : " + tRoll.getText\(\) + "\\n") Tj T* (                    + "Course       : " + tCourse.getText\(\) + "\\n") Tj T* (                    + "Gender       : " + gender + "\\n") Tj T* (                    + "Semester     : " + semester.getSelectedItem\(\)\);) Tj T* (        } else if \(e.getSource\(\) == reset\) {) Tj T* (            tName.setText\(""\);) Tj T* (            tRoll.setText\(""\);) Tj T* (            tCourse.setText\(""\);) Tj T* (            genderGroup.setSelectedCheckbox\(null\);) Tj T* (            semester.select\(0\);) Tj T* (            output.setText\(""\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 524.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 401.3701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 114.7 Tm /F3 7.5 Tf 9.4 TL (Input given in the form:) Tj T* (Student Name : Arpit Kumar | Roll Number : CU25310007 | Course : BCA) Tj T* (Gender : Male | Semester : Semester 2) Tj T*  T* (On clicking Submit, the TextArea shows:) Tj T* (Student Name : Arpit Kumar) Tj T* (Roll Number  : CU25310007) Tj T* (Course       : BCA) Tj T* (Gender       : Male) Tj T* (Semester     : Semester 2) Tj T*  T* (On clicking Reset: all text fields, the gender selection and the) Tj T* (TextArea are cleared and Semester goes back to "Semester 1".) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 377.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q2. Simple Calculator - AWT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 351.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.5 Tm /F1 9.5 Tf 12 TL (Create a Java AWT-based calculator with two TextFields, four Buttons for Addition, Subtraction, Multiplication) Tj T* (and Division, and a result display. Perform the selected operation and handle division by zero.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 55.97008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 283.9 Tm /F3 7.5 Tf 9.4 TL (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends Frame implements ActionListener {) Tj T* (    Label l1, l2, lRes;) Tj T* (    TextField t1, t2, result;) Tj T* (    Button add, sub, mul, div;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Simple Calculator"\);) Tj T* (        setLayout\(new GridLayout\(5, 2, 10, 10\)\);) Tj T*  T* (        l1 = new Label\("First Number:"\);) Tj T* (        t1 = new TextField\(\);) Tj T* (        l2 = new Label\("Second Number:"\);) Tj T* (        t2 = new TextField\(\);) Tj T* (        add = new Button\("Addition"\);) Tj T* (        sub = new Button\("Subtraction"\);) Tj T* (        mul = new Button\("Multiplication"\);) Tj T* (        div = new Button\("Division"\);) Tj T* (        lRes = new Label\("Result:"\);) Tj T* (        result = new TextField\(\);) Tj T* (        result.setEditable\(false\);) Tj T*  T* (        add\(l1\);  add\(t1\);) Tj T* (        add\(l2\);  add\(t2\);) Tj T* (        add\(add\); add\(sub\);) Tj T* (        add\(mul\); add\(div\);) Tj T* (        add\(lRes\); add\(result\);) Tj T*  T* (        add.addActionListener\(this\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+40 0 obj
+<<
+/Length 3461
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 389.1701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 396.7 Tm /F3 7.5 Tf 9.4 TL (        sub.addActionListener\(this\);) Tj T* (        mul.addActionListener\(this\);) Tj T* (        div.addActionListener\(this\);) Tj T*  T* (        addWindowListener\(new WindowAdapter\(\) {) Tj T* (            public void windowClosing\(WindowEvent e\) {) Tj T* (                dispose\(\);) Tj T* (            }) Tj T* (        }\);) Tj T*  T* (        setSize\(380, 280\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        double a, b;) Tj T* (        try {) Tj T* (            a = Double.parseDouble\(t1.getText\(\).trim\(\)\);) Tj T* (            b = Double.parseDouble\(t2.getText\(\).trim\(\)\);) Tj T* (        } catch \(NumberFormatException ex\) {) Tj T* (            result.setText\("Invalid input"\);) Tj T* (            return;) Tj T* (        }) Tj T*  T* (        if \(e.getSource\(\) == add\) {) Tj T* (            result.setText\(String.valueOf\(a + b\)\);) Tj T* (        } else if \(e.getSource\(\) == sub\) {) Tj T* (            result.setText\(String.valueOf\(a - b\)\);) Tj T* (        } else if \(e.getSource\(\) == mul\) {) Tj T* (            result.setText\(String.valueOf\(a * b\)\);) Tj T* (        } else if \(e.getSource\(\) == div\) {) Tj T* (            if \(b == 0\) {) Tj T* (                result.setText\("Cannot divide by zero"\);) Tj T* (            } else {) Tj T* (                result.setText\(String.valueOf\(a / b\)\);) Tj T* (            }) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 374.1701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 269.7701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 95.9 Tm /F3 7.5 Tf 9.4 TL (First Number = 20, Second Number = 5) Tj T* (Addition       -> Result: 25.0) Tj T* (Subtraction    -> Result: 15.0) Tj T* (Multiplication -> Result: 100.0) Tj T* (Division       -> Result: 4.0) Tj T*  T* (First Number = 20, Second Number = 0) Tj T* (Division       -> Result: Cannot divide by zero) Tj T*  T* (If a field is empty or not a number:) Tj T* (Result: Invalid input) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 245.7701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q3. Student Login Form - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 219.7701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.5 Tm /F1 9.5 Tf 12 TL -0.12271 Tw (Create a Swing login form with JLabel/JTextField for username, JLabel/JPasswordField for password, Login and) Tj T* 0 Tw (Reset buttons. On Login, compare with predefined credentials and display the result using JOptionPane.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 55.97008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 152.3 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.EmptyBorder;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JLabel lUser, lPass;) Tj T* (    JTextField tUser;) Tj T* (    JPasswordField tPass;) Tj T* (    JButton login, reset;) Tj T*  T* (    // predefined credentials) Tj T* (    final String USERNAME = "arpit";) Tj T* (    final String PASSWORD = "cu123";) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Student Login"\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+41 0 obj
+<<
+/Length 4005
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 332.7701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 453.1 Tm /F3 7.5 Tf 9.4 TL (        JPanel panel = new JPanel\(new GridLayout\(3, 2, 10, 15\)\);) Tj T* (        panel.setBorder\(new EmptyBorder\(20, 20, 20, 20\)\);) Tj T*  T* (        lUser = new JLabel\("Username:"\);) Tj T* (        tUser = new JTextField\(15\);) Tj T* (        lPass = new JLabel\("Password:"\);) Tj T* (        tPass = new JPasswordField\(15\);) Tj T* (        login = new JButton\("Login"\);) Tj T* (        reset = new JButton\("Reset"\);) Tj T*  T* (        panel.add\(lUser\);  panel.add\(tUser\);) Tj T* (        panel.add\(lPass\);  panel.add\(tPass\);) Tj T* (        panel.add\(login\);  panel.add\(reset\);) Tj T*  T* (        login.addActionListener\(this\);) Tj T* (        reset.addActionListener\(this\);) Tj T*  T* (        add\(panel\);) Tj T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(350, 220\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == login\) {) Tj T* (            String user = tUser.getText\(\).trim\(\);) Tj T* (            String pass = new String\(tPass.getPassword\(\)\);) Tj T*  T* (            if \(user.isEmpty\(\) || pass.isEmpty\(\)\) {) Tj T* (                JOptionPane.showMessageDialog\(this, "Please enter username and password.",) Tj T* (                        "Warning", JOptionPane.WARNING_MESSAGE\);) Tj T* (            } else if \(user.equals\(USERNAME\) && pass.equals\(PASSWORD\)\) {) Tj T* (                JOptionPane.showMessageDialog\(this, "Login Successful! Welcome, " + user + ".",) Tj T* (                        "Login", JOptionPane.INFORMATION_MESSAGE\);) Tj T* (            } else {) Tj T* (                JOptionPane.showMessageDialog\(this, "Invalid username or password.",) Tj T* (                        "Login Failed", JOptionPane.ERROR_MESSAGE\);) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == reset\) {) Tj T* (            tUser.setText\(""\);) Tj T* (            tPass.setText\(""\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 317.7701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 203.9701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 105.3 Tm /F3 7.5 Tf 9.4 TL (Predefined credentials: username = arpit, password = cu123) Tj T*  T* (Username: arpit, Password: cu123, click Login) Tj T* (JOptionPane message: Login Successful! Welcome, arpit.) Tj T*  T* (Username: arpit, Password: wrong, click Login) Tj T* (JOptionPane message: Invalid username or password.) Tj T*  T* (Username or Password left empty, click Login) Tj T* (JOptionPane message: Please enter username and password.) Tj T*  T* (On clicking Reset: username and password fields are cleared.) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 179.9701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q4. Student Marksheet GUI - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.9701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.5 Tm /F1 9.5 Tf 12 TL (Create a Swing application accepting marks for English, Mathematics, Java, DBMS and Computer Networks.) Tj T* (Add a Calculate Result button to display total, percentage, grade and pass/fail status.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 55.97008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 86.5 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.EmptyBorder;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    String[] subjects = {"English", "Mathematics", "Java", "DBMS", "Computer Networks"};) Tj T* (    JTextField[] marks = new JTextField[5];) Tj T* (    JButton calculate;) Tj T* (    JTextArea result;) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+42 0 obj
+<<
+/Length 3092
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 135.3701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 650.5 Tm /F3 7.5 Tf 9.4 TL (    Main\(\) {) Tj T* (        setTitle\("Student Marksheet"\);) Tj T* (        setLayout\(new BorderLayout\(10, 10\)\);) Tj T*  T* (        JPanel panel = new JPanel\(new GridLayout\(6, 2, 10, 10\)\);) Tj T* (        panel.setBorder\(new EmptyBorder\(15, 20, 5, 20\)\);) Tj T*  T* (        for \(int i = 0; i < 5; i++\) {) Tj T* (            panel.add\(new JLabel\(subjects[i] + " \(out of 100\):"\)\);) Tj T* (            marks[i] = new JTextField\(\);) Tj T* (            panel.add\(marks[i]\);) Tj T* (        }) Tj T* (        calculate = new JButton\("Calculate Result"\);) Tj T* (        panel.add\(new JLabel\(""\)\);) Tj T* (        panel.add\(calculate\);) Tj T* (        calculate.addActionListener\(this\);) Tj T*  T* (        result = new JTextArea\(6, 25\);) Tj T* (        result.setEditable\(false\);) Tj T* (        result.setBorder\(new EmptyBorder\(8, 20, 8, 20\)\);) Tj T*  T* (        add\(panel, BorderLayout.CENTER\);) Tj T* (        add\(result, BorderLayout.SOUTH\);) Tj T*  T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(420, 450\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        int total = 0;) Tj T* (        boolean pass = true;) Tj T* (        try {) Tj T* (            for \(int i = 0; i < 5; i++\) {) Tj T* (                int m = Integer.parseInt\(marks[i].getText\(\).trim\(\)\);) Tj T* (                if \(m < 0 || m > 100\) {) Tj T* (                    JOptionPane.showMessageDialog\(this, "Marks must be between 0 and 100."\);) Tj T* (                    return;) Tj T* (                }) Tj T* (                total += m;) Tj T* (                if \(m < 40\) {) Tj T* (                    pass = false;) Tj T* (                }) Tj T* (            }) Tj T* (        } catch \(NumberFormatException ex\) {) Tj T* (            JOptionPane.showMessageDialog\(this, "Please enter valid marks in all fields."\);) Tj T* (            return;) Tj T* (        }) Tj T*  T* (        double percentage = total / 5.0;) Tj T* (        String grade;) Tj T* (        if \(!pass\) grade = "F";) Tj T* (        else if \(percentage >= 90\) grade = "A+";) Tj T* (        else if \(percentage >= 80\) grade = "A";) Tj T* (        else if \(percentage >= 70\) grade = "B+";) Tj T* (        else if \(percentage >= 60\) grade = "B";) Tj T* (        else if \(percentage >= 50\) grade = "C";) Tj T* (        else grade = "D";) Tj T*  T* (        result.setText\("Total Marks : " + total + " / 500\\n") Tj T* (                + "Percentage  : " + String.format\("%.2f", percentage\) + " %\\n") Tj T* (                + "Grade       : " + grade + "\\n") Tj T* (                + "Status      : " + \(pass ? "PASS" : "FAIL"\)\);) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+43 0 obj
+<<
+/Length 3901
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 781.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 639.3701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 133.5 Tm /F3 7.5 Tf 9.4 TL (Marks: English 78, Mathematics 85, Java 92, DBMS 67, Computer Networks 88) Tj T* (On clicking Calculate Result:) Tj T* (Total Marks : 410 / 500) Tj T* (Percentage  : 82.00 %) Tj T* (Grade       : A) Tj T* (Status      : PASS) Tj T*  T* (Marks: English 78, Mathematics 85, Java 92, DBMS 35, Computer Networks 88) Tj T* (Total Marks : 378 / 500) Tj T* (Percentage  : 75.60 %) Tj T* (Grade       : F) Tj T* (Status      : FAIL      \(a subject below 40 marks\)) Tj T*  T* (Invalid or empty marks -> "Please enter valid marks in all fields.") Tj T* (Marks outside 0-100    -> "Marks must be between 0 and 100.") Tj T* ET
+Q
+q
+1 0 0 1 62.69291 615.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q5. Course Selection Form - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 577.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26.5 Tm /F1 9.5 Tf 12 TL (Create a Swing GUI with Student Name \(JTextField\), Course \(JComboBox\), Gender \(JRadioButton\), Subjects) Tj T* (\(multiple JCheckBox\), Submit and Reset buttons. Submit should display all selected information using) Tj T* (JOptionPane.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 56.37008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 509.5 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.EmptyBorder;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JTextField tName;) Tj T* (    JComboBox<String> course;) Tj T* (    JRadioButton male, female, other;) Tj T* (    ButtonGroup genderGroup;) Tj T* (    JCheckBox[] subjects = new JCheckBox[4];) Tj T* (    JButton submit, reset;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Course Selection Form"\);) Tj T*  T* (        JPanel panel = new JPanel\(new GridLayout\(6, 2, 10, 12\)\);) Tj T* (        panel.setBorder\(new EmptyBorder\(15, 20, 15, 20\)\);) Tj T*  T* (        tName = new JTextField\(\);) Tj T* (        course = new JComboBox<>\(new String[]{"BCA", "BBA", "BTech", "MCA", "MBA"}\);) Tj T*  T* (        male = new JRadioButton\("Male"\);) Tj T* (        female = new JRadioButton\("Female"\);) Tj T* (        other = new JRadioButton\("Other"\);) Tj T* (        genderGroup = new ButtonGroup\(\);) Tj T* (        genderGroup.add\(male\);) Tj T* (        genderGroup.add\(female\);) Tj T* (        genderGroup.add\(other\);) Tj T* (        JPanel genderPanel = new JPanel\(new FlowLayout\(FlowLayout.LEFT, 5, 0\)\);) Tj T* (        genderPanel.add\(male\);) Tj T* (        genderPanel.add\(female\);) Tj T* (        genderPanel.add\(other\);) Tj T*  T* (        String[] names = {"Java", "DBMS", "Mathematics", "Computer Networks"};) Tj T* (        JPanel subjectPanel = new JPanel\(new GridLayout\(2, 2\)\);) Tj T* (        for \(int i = 0; i < 4; i++\) {) Tj T* (            subjects[i] = new JCheckBox\(names[i]\);) Tj T* (            subjectPanel.add\(subjects[i]\);) Tj T* (        }) Tj T*  T* (        submit = new JButton\("Submit"\);) Tj T* (        reset = new JButton\("Reset"\);) Tj T*  T* (        panel.add\(new JLabel\("Student Name:"\)\); panel.add\(tName\);) Tj T* (        panel.add\(new JLabel\("Course:"\)\);       panel.add\(course\);) Tj T* (        panel.add\(new JLabel\("Gender:"\)\);       panel.add\(genderPanel\);) Tj T* (        panel.add\(new JLabel\("Subjects:"\)\);     panel.add\(subjectPanel\);) Tj T* (        panel.add\(new JLabel\(""\)\);              panel.add\(new JLabel\(""\)\);) Tj T* (        panel.add\(submit\);                      panel.add\(reset\);) Tj T*  T* (        submit.addActionListener\(this\);) Tj T* (        reset.addActionListener\(this\);) Tj T*  T* (        add\(panel\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+44 0 obj
+<<
+/Length 3834
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 370.3701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 415.5 Tm /F3 7.5 Tf 9.4 TL (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(450, 340\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == submit\) {) Tj T* (            String gender = "Not selected";) Tj T* (            if \(male.isSelected\(\)\) gender = "Male";) Tj T* (            else if \(female.isSelected\(\)\) gender = "Female";) Tj T* (            else if \(other.isSelected\(\)\) gender = "Other";) Tj T*  T* (            String selected = "";) Tj T* (            for \(JCheckBox cb : subjects\) {) Tj T* (                if \(cb.isSelected\(\)\) {) Tj T* (                    selected += cb.getText\(\) + ", ";) Tj T* (                }) Tj T* (            }) Tj T* (            if \(selected.isEmpty\(\)\) {) Tj T* (                selected = "None";) Tj T* (            } else {) Tj T* (                selected = selected.substring\(0, selected.length\(\) - 2\);) Tj T* (            }) Tj T*  T* (            JOptionPane.showMessageDialog\(this,) Tj T* (                    "Student Name : " + tName.getText\(\) + "\\n") Tj T* (                    + "Course       : " + course.getSelectedItem\(\) + "\\n") Tj T* (                    + "Gender       : " + gender + "\\n") Tj T* (                    + "Subjects     : " + selected,) Tj T* (                    "Selected Information", JOptionPane.INFORMATION_MESSAGE\);) Tj T* (        } else if \(e.getSource\(\) == reset\) {) Tj T* (            tName.setText\(""\);) Tj T* (            course.setSelectedIndex\(0\);) Tj T* (            genderGroup.clearSelection\(\);) Tj T* (            for \(JCheckBox cb : subjects\) {) Tj T* (                cb.setSelected\(false\);) Tj T* (            }) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 355.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 250.9701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 95.9 Tm /F3 7.5 Tf 9.4 TL (Input: Name = Arpit Kumar, Course = BCA, Gender = Male,) Tj T* (Subjects = Java and DBMS selected) Tj T*  T* (On clicking Submit, JOptionPane shows \(title: Selected Information\):) Tj T* (Student Name : Arpit Kumar) Tj T* (Course       : BCA) Tj T* (Gender       : Male) Tj T* (Subjects     : Java, DBMS) Tj T*  T* (On clicking Reset: name is cleared, course goes back to BCA, gender and) Tj T* (subject selections are removed.) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 226.9701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q6. Employee Registration Form - AWT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 188.9701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26.5 Tm /F1 9.5 Tf 12 TL (Create an AWT Employee Registration Form with Employee ID, Name, Department, Designation, Salary,) Tj T* -0.001981 Tw (Gender, Department selection, Submit and Clear buttons. Display submitted information in a TextArea and clear) Tj T* 0 Tw (fields using Clear.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 53.37008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 124.1 Tm /F3 7.5 Tf 9.4 TL (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends Frame implements ActionListener {) Tj T* (    TextField tId, tName, tDesignation, tSalary;) Tj T* (    CheckboxGroup genderGroup;) Tj T* (    Checkbox male, female;) Tj T* (    Choice department;) Tj T* (    Button submit, clear;) Tj T* (    TextArea output;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Employee Registration Form"\);) Tj T* (        setLayout\(new BorderLayout\(10, 10\)\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+45 0 obj
+<<
+/Length 3656
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 69.57008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 716.3 Tm /F3 7.5 Tf 9.4 TL (        Panel form = new Panel\(new GridLayout\(7, 2, 10, 10\)\);) Tj T*  T* (        tId = new TextField\(\);) Tj T* (        tName = new TextField\(\);) Tj T* (        tDesignation = new TextField\(\);) Tj T* (        tSalary = new TextField\(\);) Tj T*  T* (        genderGroup = new CheckboxGroup\(\);) Tj T* (        male = new Checkbox\("Male", genderGroup, false\);) Tj T* (        female = new Checkbox\("Female", genderGroup, false\);) Tj T* (        Panel genderPanel = new Panel\(new FlowLayout\(FlowLayout.LEFT\)\);) Tj T* (        genderPanel.add\(male\);) Tj T* (        genderPanel.add\(female\);) Tj T*  T* (        department = new Choice\(\);) Tj T* (        department.add\("Computer Science"\);) Tj T* (        department.add\("Information Technology"\);) Tj T* (        department.add\("Human Resources"\);) Tj T* (        department.add\("Finance"\);) Tj T* (        department.add\("Sales"\);) Tj T*  T* (        submit = new Button\("Submit"\);) Tj T* (        clear = new Button\("Clear"\);) Tj T*  T* (        form.add\(new Label\("Employee ID:"\)\);   form.add\(tId\);) Tj T* (        form.add\(new Label\("Name:"\)\);          form.add\(tName\);) Tj T* (        form.add\(new Label\("Designation:"\)\);   form.add\(tDesignation\);) Tj T* (        form.add\(new Label\("Salary:"\)\);        form.add\(tSalary\);) Tj T* (        form.add\(new Label\("Gender:"\)\);        form.add\(genderPanel\);) Tj T* (        form.add\(new Label\("Department:"\)\);    form.add\(department\);) Tj T* (        form.add\(submit\);                      form.add\(clear\);) Tj T*  T* (        output = new TextArea\(7, 30\);) Tj T* (        output.setEditable\(false\);) Tj T*  T* (        add\(new Label\("   "\), BorderLayout.WEST\);) Tj T* (        add\(form, BorderLayout.CENTER\);) Tj T* (        add\(output, BorderLayout.SOUTH\);) Tj T*  T* (        submit.addActionListener\(this\);) Tj T* (        clear.addActionListener\(this\);) Tj T*  T* (        addWindowListener\(new WindowAdapter\(\) {) Tj T* (            public void windowClosing\(WindowEvent e\) {) Tj T* (                dispose\(\);) Tj T* (            }) Tj T* (        }\);) Tj T*  T* (        setSize\(440, 540\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == submit\) {) Tj T* (            Checkbox sel = genderGroup.getSelectedCheckbox\(\);) Tj T* (            String gender = \(sel == null\) ? "Not selected" : sel.getLabel\(\);) Tj T* (            output.setText\("Employee ID : " + tId.getText\(\) + "\\n") Tj T* (                    + "Name        : " + tName.getText\(\) + "\\n") Tj T* (                    + "Designation : " + tDesignation.getText\(\) + "\\n") Tj T* (                    + "Salary      : " + tSalary.getText\(\) + "\\n") Tj T* (                    + "Gender      : " + gender + "\\n") Tj T* (                    + "Department  : " + department.getSelectedItem\(\)\);) Tj T* (        } else if \(e.getSource\(\) == clear\) {) Tj T* (            tId.setText\(""\);) Tj T* (            tName.setText\(""\);) Tj T* (            tDesignation.setText\(""\);) Tj T* (            tSalary.setText\(""\);) Tj T* (            genderGroup.setSelectedCheckbox\(null\);) Tj T* (            department.select\(0\);) Tj T* (            output.setText\(""\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+46 0 obj
+<<
+/Length 3471
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 781.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 658.1701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 114.7 Tm /F3 7.5 Tf 9.4 TL (Input: Employee ID = E101, Name = Arpit Kumar, Designation = Software Developer,) Tj T* (Salary = 55000, Gender = Male, Department = Computer Science) Tj T*  T* (On clicking Submit, the TextArea shows:) Tj T* (Employee ID : E101) Tj T* (Name        : Arpit Kumar) Tj T* (Designation : Software Developer) Tj T* (Salary      : 55000) Tj T* (Gender      : Male) Tj T* (Department  : Computer Science) Tj T*  T* (On clicking Clear: all fields, gender and the TextArea are cleared and) Tj T* (Department goes back to "Computer Science".) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 634.1701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q7. Temperature Converter - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 596.1701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26.5 Tm /F1 9.5 Tf 12 TL (Create a Swing temperature converter with a temperature TextField, Celsius-to-Fahrenheit and) Tj T* (Fahrenheit-to-Celsius radio buttons, Convert and Clear buttons, and result display. Use F=\(C*9/5\)+32 and) Tj T* (C=\(F-32\)*5/9. Handle invalid input.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 56.37008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 528.3 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.EmptyBorder;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JTextField tTemp;) Tj T* (    JRadioButton cToF, fToC;) Tj T* (    ButtonGroup group;) Tj T* (    JButton convert, clear;) Tj T* (    JLabel result;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Temperature Converter"\);) Tj T*  T* (        JPanel panel = new JPanel\(new GridLayout\(4, 1, 8, 12\)\);) Tj T* (        panel.setBorder\(new EmptyBorder\(15, 20, 15, 20\)\);) Tj T*  T* (        JPanel p1 = new JPanel\(new FlowLayout\(\)\);) Tj T* (        p1.add\(new JLabel\("Temperature:"\)\);) Tj T* (        tTemp = new JTextField\(12\);) Tj T* (        p1.add\(tTemp\);) Tj T*  T* (        cToF = new JRadioButton\("Celsius to Fahrenheit", true\);) Tj T* (        fToC = new JRadioButton\("Fahrenheit to Celsius"\);) Tj T* (        group = new ButtonGroup\(\);) Tj T* (        group.add\(cToF\);) Tj T* (        group.add\(fToC\);) Tj T* (        JPanel p2 = new JPanel\(new FlowLayout\(\)\);) Tj T* (        p2.add\(cToF\);) Tj T* (        p2.add\(fToC\);) Tj T*  T* (        convert = new JButton\("Convert"\);) Tj T* (        clear = new JButton\("Clear"\);) Tj T* (        JPanel p3 = new JPanel\(new FlowLayout\(\)\);) Tj T* (        p3.add\(convert\);) Tj T* (        p3.add\(clear\);) Tj T*  T* (        result = new JLabel\("Result: ", SwingConstants.CENTER\);) Tj T* (        result.setFont\(new Font\("Arial", Font.BOLD, 14\)\);) Tj T*  T* (        panel.add\(p1\);) Tj T* (        panel.add\(p2\);) Tj T* (        panel.add\(p3\);) Tj T* (        panel.add\(result\);) Tj T*  T* (        convert.addActionListener\(this\);) Tj T* (        clear.addActionListener\(this\);) Tj T*  T* (        add\(panel\);) Tj T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(430, 270\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+47 0 obj
+<<
+/Length 3899
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 548.9701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 236.9 Tm /F3 7.5 Tf 9.4 TL (        if \(e.getSource\(\) == convert\) {) Tj T* (            try {) Tj T* (                double temp = Double.parseDouble\(tTemp.getText\(\).trim\(\)\);) Tj T* (                if \(cToF.isSelected\(\)\) {) Tj T* (                    double f = \(temp * 9 / 5\) + 32;) Tj T* (                    result.setText\("Result: " + temp + " C = " + String.format\("%.2f", f\) + " F"\);) Tj T* (                } else {) Tj T* (                    double c = \(temp - 32\) * 5 / 9;) Tj T* (                    result.setText\("Result: " + temp + " F = " + String.format\("%.2f", c\) + " C"\);) Tj T* (                }) Tj T* (            } catch \(NumberFormatException ex\) {) Tj T* (                JOptionPane.showMessageDialog\(this, "Invalid input! Please enter a valid number.",) Tj T* (                        "Error", JOptionPane.ERROR_MESSAGE\);) Tj T* (                result.setText\("Result: "\);) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == clear\) {) Tj T* (            tTemp.setText\(""\);) Tj T* (            result.setText\("Result: "\);) Tj T* (            cToF.setSelected\(true\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 533.9701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 429.5701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 95.9 Tm /F3 7.5 Tf 9.4 TL (Temperature = 100, "Celsius to Fahrenheit" selected, click Convert) Tj T* (Result: 100.0 C = 212.00 F) Tj T*  T* (Temperature = 98.6, "Fahrenheit to Celsius" selected, click Convert) Tj T* (Result: 98.6 F = 37.00 C) Tj T*  T* (Temperature = abc, click Convert) Tj T* (JOptionPane \(Error\): Invalid input! Please enter a valid number.) Tj T*  T* (On clicking Clear: the field and result are cleared and) Tj T* ("Celsius to Fahrenheit" is selected again.) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 405.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q8. Simple Notepad - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 379.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.5 Tm /F1 9.5 Tf 12 TL (Create a basic Swing Notepad with JTextArea and a menu bar containing File -> New, Open, Save and Exit.) Tj T* (New clears the text area; Open selects a text file; Save writes the contents to a file; Exit closes the application.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 55.97008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 312.1 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T* (import java.io.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JTextArea textArea;) Tj T* (    JMenuBar menuBar;) Tj T* (    JMenu fileMenu;) Tj T* (    JMenuItem newItem, openItem, saveItem, exitItem;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Simple Notepad"\);) Tj T*  T* (        textArea = new JTextArea\(\);) Tj T* (        textArea.setFont\(new Font\("Monospaced", Font.PLAIN, 14\)\);) Tj T* (        add\(new JScrollPane\(textArea\), BorderLayout.CENTER\);) Tj T*  T* (        menuBar = new JMenuBar\(\);) Tj T* (        fileMenu = new JMenu\("File"\);) Tj T* (        newItem = new JMenuItem\("New"\);) Tj T* (        openItem = new JMenuItem\("Open"\);) Tj T* (        saveItem = new JMenuItem\("Save"\);) Tj T* (        exitItem = new JMenuItem\("Exit"\);) Tj T*  T* (        fileMenu.add\(newItem\);) Tj T* (        fileMenu.add\(openItem\);) Tj T* (        fileMenu.add\(saveItem\);) Tj T* (        fileMenu.addSeparator\(\);) Tj T* (        fileMenu.add\(exitItem\);) Tj T* (        menuBar.add\(fileMenu\);) Tj T* (        setJMenuBar\(menuBar\);) Tj T*  T* (        newItem.addActionListener\(this\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+48 0 obj
+<<
+/Length 4110
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 351.5701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 434.3 Tm /F3 7.5 Tf 9.4 TL (        openItem.addActionListener\(this\);) Tj T* (        saveItem.addActionListener\(this\);) Tj T* (        exitItem.addActionListener\(this\);) Tj T*  T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(600, 400\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        JFileChooser chooser = new JFileChooser\(\);) Tj T*  T* (        if \(e.getSource\(\) == newItem\) {) Tj T* (            textArea.setText\(""\);) Tj T* (        } else if \(e.getSource\(\) == openItem\) {) Tj T* (            if \(chooser.showOpenDialog\(this\) == JFileChooser.APPROVE_OPTION\) {) Tj T* (                File file = chooser.getSelectedFile\(\);) Tj T* (                try {) Tj T* (                    BufferedReader br = new BufferedReader\(new FileReader\(file\)\);) Tj T* (                    textArea.read\(br, null\);) Tj T* (                    br.close\(\);) Tj T* (                } catch \(IOException ex\) {) Tj T* (                    JOptionPane.showMessageDialog\(this, "Error opening file: " + ex.getMessage\(\)\);) Tj T* (                }) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == saveItem\) {) Tj T* (            if \(chooser.showSaveDialog\(this\) == JFileChooser.APPROVE_OPTION\) {) Tj T* (                File file = chooser.getSelectedFile\(\);) Tj T* (                try {) Tj T* (                    FileWriter fw = new FileWriter\(file\);) Tj T* (                    textArea.write\(fw\);) Tj T* (                    fw.close\(\);) Tj T* (                    JOptionPane.showMessageDialog\(this, "File saved successfully."\);) Tj T* (                } catch \(IOException ex\) {) Tj T* (                    JOptionPane.showMessageDialog\(this, "Error saving file: " + ex.getMessage\(\)\);) Tj T* (                }) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == exitItem\) {) Tj T* (            System.exit\(0\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 336.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.3701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 114.7 Tm /F3 7.5 Tf 9.4 TL (Menu bar:  File -> New | Open | Save | ---- | Exit) Tj T*  T* (Typing in the text area:) Tj T* (Hello, this is my Java Notepad.) Tj T* (File handling with Swing is fun!) Tj T* (- Arpit Kumar) Tj T*  T* (File -> New   : the text area is cleared.) Tj T* (File -> Open  : a JFileChooser opens; the selected text file is loaded) Tj T* (                into the text area.) Tj T* (File -> Save  : a JFileChooser opens; the contents are written to the) Tj T* (                chosen file and "File saved successfully." is shown.) Tj T* (File -> Exit  : the application closes.) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 189.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q9. Student Feedback Form - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 139.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38.5 Tm /F1 9.5 Tf 12 TL (Create a Swing Student Feedback Form with Student Name, Roll Number, Course, rating radio buttons) Tj T* (\(Excellent, Very Good, Good, Average, Poor\), feedback checkboxes \(Teaching, Laboratory, Course Material,) Tj T* (Assignments\), Comments JTextArea, Submit and Reset. Submit should display all feedback using) Tj T* (JOptionPane.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 50.77008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 77.1 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.*;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JTextField tName, tRoll, tCourse;) Tj T* (    JRadioButton[] rating = new JRadioButton[5];) Tj T* (    ButtonGroup ratingGroup;) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+49 0 obj
+<<
+/Length 3791
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 50.77008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 735.1 Tm /F3 7.5 Tf 9.4 TL (    JCheckBox[] aspects = new JCheckBox[4];) Tj T* (    JTextArea comments;) Tj T* (    JButton submit, reset;) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Student Feedback Form"\);) Tj T* (        setLayout\(new BorderLayout\(10, 10\)\);) Tj T*  T* (        // Top: student details) Tj T* (        JPanel top = new JPanel\(new GridLayout\(3, 2, 10, 10\)\);) Tj T* (        top.setBorder\(new EmptyBorder\(15, 20, 5, 20\)\);) Tj T* (        tName = new JTextField\(\);) Tj T* (        tRoll = new JTextField\(\);) Tj T* (        tCourse = new JTextField\(\);) Tj T* (        top.add\(new JLabel\("Student Name:"\)\); top.add\(tName\);) Tj T* (        top.add\(new JLabel\("Roll Number:"\)\);  top.add\(tRoll\);) Tj T* (        top.add\(new JLabel\("Course:"\)\);       top.add\(tCourse\);) Tj T*  T* (        // Middle: rating and feedback options) Tj T* (        JPanel ratingPanel = new JPanel\(new GridLayout\(5, 1\)\);) Tj T* (        ratingPanel.setBorder\(new TitledBorder\("Rating"\)\);) Tj T* (        String[] r = {"Excellent", "Very Good", "Good", "Average", "Poor"};) Tj T* (        ratingGroup = new ButtonGroup\(\);) Tj T* (        for \(int i = 0; i < 5; i++\) {) Tj T* (            rating[i] = new JRadioButton\(r[i]\);) Tj T* (            ratingGroup.add\(rating[i]\);) Tj T* (            ratingPanel.add\(rating[i]\);) Tj T* (        }) Tj T*  T* (        JPanel aspectPanel = new JPanel\(new GridLayout\(4, 1\)\);) Tj T* (        aspectPanel.setBorder\(new TitledBorder\("Feedback On"\)\);) Tj T* (        String[] a = {"Teaching", "Laboratory", "Course Material", "Assignments"};) Tj T* (        for \(int i = 0; i < 4; i++\) {) Tj T* (            aspects[i] = new JCheckBox\(a[i]\);) Tj T* (            aspectPanel.add\(aspects[i]\);) Tj T* (        }) Tj T*  T* (        JPanel options = new JPanel\(new GridLayout\(1, 2, 10, 10\)\);) Tj T* (        options.setBorder\(new EmptyBorder\(0, 20, 0, 20\)\);) Tj T* (        options.add\(ratingPanel\);) Tj T* (        options.add\(aspectPanel\);) Tj T*  T* (        comments = new JTextArea\(4, 20\);) Tj T* (        JScrollPane sp = new JScrollPane\(comments\);) Tj T* (        sp.setBorder\(new TitledBorder\("Comments"\)\);) Tj T* (        JPanel commentPanel = new JPanel\(new BorderLayout\(\)\);) Tj T* (        commentPanel.setBorder\(new EmptyBorder\(0, 20, 0, 20\)\);) Tj T* (        commentPanel.add\(sp\);) Tj T*  T* (        JPanel center = new JPanel\(new BorderLayout\(5, 5\)\);) Tj T* (        center.add\(options, BorderLayout.NORTH\);) Tj T* (        center.add\(commentPanel, BorderLayout.CENTER\);) Tj T*  T* (        // Bottom: buttons) Tj T* (        submit = new JButton\("Submit"\);) Tj T* (        reset = new JButton\("Reset"\);) Tj T* (        JPanel bottom = new JPanel\(new FlowLayout\(\)\);) Tj T* (        bottom.add\(submit\);) Tj T* (        bottom.add\(reset\);) Tj T*  T* (        submit.addActionListener\(this\);) Tj T* (        reset.addActionListener\(this\);) Tj T*  T* (        add\(top, BorderLayout.NORTH\);) Tj T* (        add\(center, BorderLayout.CENTER\);) Tj T* (        add\(bottom, BorderLayout.SOUTH\);) Tj T*  T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(470, 520\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == submit\) {) Tj T* (            String rate = "Not selected";) Tj T* (            for \(JRadioButton rb : rating\) {) Tj T* (                if \(rb.isSelected\(\)\) rate = rb.getText\(\);) Tj T* (            }) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+50 0 obj
+<<
+/Length 4444
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 530.1701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 255.7 Tm /F3 7.5 Tf 9.4 TL (            String areas = "";) Tj T* (            for \(JCheckBox cb : aspects\) {) Tj T* (                if \(cb.isSelected\(\)\) areas += cb.getText\(\) + ", ";) Tj T* (            }) Tj T* (            areas = areas.isEmpty\(\) ? "None" : areas.substring\(0, areas.length\(\) - 2\);) Tj T*  T* (            JOptionPane.showMessageDialog\(this,) Tj T* (                    "Student Name : " + tName.getText\(\) + "\\n") Tj T* (                    + "Roll Number  : " + tRoll.getText\(\) + "\\n") Tj T* (                    + "Course       : " + tCourse.getText\(\) + "\\n") Tj T* (                    + "Rating       : " + rate + "\\n") Tj T* (                    + "Feedback On  : " + areas + "\\n") Tj T* (                    + "Comments     : " + comments.getText\(\),) Tj T* (                    "Feedback Submitted", JOptionPane.INFORMATION_MESSAGE\);) Tj T* (        } else if \(e.getSource\(\) == reset\) {) Tj T* (            tName.setText\(""\);) Tj T* (            tRoll.setText\(""\);) Tj T* (            tCourse.setText\(""\);) Tj T* (            ratingGroup.clearSelection\(\);) Tj T* (            for \(JCheckBox cb : aspects\) cb.setSelected\(false\);) Tj T* (            comments.setText\(""\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 515.1701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 382.5701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 124.1 Tm /F3 7.5 Tf 9.4 TL (Input: Name = Arpit Kumar, Roll Number = CU25310007, Course = BCA,) Tj T* (Rating = Very Good, Feedback On = Teaching, Laboratory,) Tj T* (Comments = Labs are very helpful. Please add more practice sheets.) Tj T*  T* (On clicking Submit, JOptionPane shows \(title: Feedback Submitted\):) Tj T* (Student Name : Arpit Kumar) Tj T* (Roll Number  : CU25310007) Tj T* (Course       : BCA) Tj T* (Rating       : Very Good) Tj T* (Feedback On  : Teaching, Laboratory) Tj T* (Comments     : Labs are very helpful.) Tj T* (Please add more practice sheets.) Tj T*  T* (On clicking Reset: all fields, rating, checkboxes and comments are cleared.) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 358.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (Q10. Mini Banking GUI Application - Swing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 320.5701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26.5 Tm /F1 9.5 Tf 12 TL (Create a Swing Mini Banking Application with Account Number, Customer Name, Current Balance, Amount and) Tj T* (buttons Deposit, Withdraw, Check Balance and Clear. Deposit adds amount; Withdraw subtracts it only when) Tj T* (sufficient balance exists; Check Balance displays balance; Clear clears inputs. Use JOptionPane for messages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 62.77008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 246.3 Tm /F3 7.5 Tf 9.4 TL (import javax.swing.*;) Tj T* (import javax.swing.border.EmptyBorder;) Tj T* (import java.awt.*;) Tj T* (import java.awt.event.*;) Tj T*  T* (public class Main extends JFrame implements ActionListener {) Tj T* (    JTextField tAccNo, tName, tBalance, tAmount;) Tj T* (    JButton deposit, withdraw, check, clear;) Tj T* (    double balance = 5000.00;   // opening balance) Tj T*  T* (    Main\(\) {) Tj T* (        setTitle\("Mini Banking Application"\);) Tj T* (        setLayout\(new BorderLayout\(10, 10\)\);) Tj T*  T* (        JPanel form = new JPanel\(new GridLayout\(4, 2, 10, 12\)\);) Tj T* (        form.setBorder\(new EmptyBorder\(20, 20, 5, 20\)\);) Tj T*  T* (        tAccNo = new JTextField\(\);) Tj T* (        tName = new JTextField\(\);) Tj T* (        tBalance = new JTextField\(String.format\("%.2f", balance\)\);) Tj T* (        tBalance.setEditable\(false\);) Tj T* (        tAmount = new JTextField\(\);) Tj T*  T* (        form.add\(new JLabel\("Account Number:"\)\); form.add\(tAccNo\);) Tj T* (        form.add\(new JLabel\("Customer Name:"\)\);  form.add\(tName\);) Tj T* (        form.add\(new JLabel\("Current Balance:"\)\); form.add\(tBalance\);) Tj T* (        form.add\(new JLabel\("Amount:"\)\);         form.add\(tAmount\);) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 53.37008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 1.9 Tm /F3 7.5 Tf 9.4 TL (        deposit = new JButton\("Deposit"\);) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+51 0 obj
+<<
+/Length 3476
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 107.1701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 678.7 Tm /F3 7.5 Tf 9.4 TL (        withdraw = new JButton\("Withdraw"\);) Tj T* (        check = new JButton\("Check Balance"\);) Tj T* (        clear = new JButton\("Clear"\);) Tj T* (        JPanel buttons = new JPanel\(new GridLayout\(1, 4, 8, 8\)\);) Tj T* (        buttons.setBorder\(new EmptyBorder\(5, 20, 20, 20\)\);) Tj T* (        buttons.add\(deposit\);) Tj T* (        buttons.add\(withdraw\);) Tj T* (        buttons.add\(check\);) Tj T* (        buttons.add\(clear\);) Tj T*  T* (        deposit.addActionListener\(this\);) Tj T* (        withdraw.addActionListener\(this\);) Tj T* (        check.addActionListener\(this\);) Tj T* (        clear.addActionListener\(this\);) Tj T*  T* (        add\(form, BorderLayout.CENTER\);) Tj T* (        add\(buttons, BorderLayout.SOUTH\);) Tj T*  T* (        setDefaultCloseOperation\(EXIT_ON_CLOSE\);) Tj T* (        setSize\(520, 250\);) Tj T* (        setLocationRelativeTo\(null\);) Tj T* (        setVisible\(true\);) Tj T* (    }) Tj T*  T* (    double readAmount\(\) {) Tj T* (        try {) Tj T* (            double amt = Double.parseDouble\(tAmount.getText\(\).trim\(\)\);) Tj T* (            if \(amt <= 0\) {) Tj T* (                JOptionPane.showMessageDialog\(this, "Amount must be greater than zero.",) Tj T* (                        "Invalid Amount", JOptionPane.WARNING_MESSAGE\);) Tj T* (                return -1;) Tj T* (            }) Tj T* (            return amt;) Tj T* (        } catch \(NumberFormatException ex\) {) Tj T* (            JOptionPane.showMessageDialog\(this, "Please enter a valid amount.",) Tj T* (                    "Invalid Input", JOptionPane.ERROR_MESSAGE\);) Tj T* (            return -1;) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public void actionPerformed\(ActionEvent e\) {) Tj T* (        if \(e.getSource\(\) == deposit\) {) Tj T* (            double amt = readAmount\(\);) Tj T* (            if \(amt > 0\) {) Tj T* (                balance += amt;) Tj T* (                tBalance.setText\(String.format\("%.2f", balance\)\);) Tj T* (                JOptionPane.showMessageDialog\(this, "Rs. " + amt + " deposited successfully."\);) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == withdraw\) {) Tj T* (            double amt = readAmount\(\);) Tj T* (            if \(amt > 0\) {) Tj T* (                if \(amt <= balance\) {) Tj T* (                    balance -= amt;) Tj T* (                    tBalance.setText\(String.format\("%.2f", balance\)\);) Tj T* (                    JOptionPane.showMessageDialog\(this, "Rs. " + amt + " withdrawn successfully."\);) Tj T* (                } else {) Tj T* (                    JOptionPane.showMessageDialog\(this, "Insufficient balance!",) Tj T* (                            "Error", JOptionPane.ERROR_MESSAGE\);) Tj T* (                }) Tj T* (            }) Tj T* (        } else if \(e.getSource\(\) == check\) {) Tj T* (            JOptionPane.showMessageDialog\(this, "Current Balance: Rs. " + String.format\("%.2f", balance\)\);) Tj T* (        } else if \(e.getSource\(\) == clear\) {) Tj T* (            tAccNo.setText\(""\);) Tj T* (            tName.setText\(""\);) Tj T* (            tAmount.setText\(""\);) Tj T* (        }) Tj T* (    }) Tj T*  T* (    public static void main\(String[] args\) {) Tj T* (        new Main\(\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+52 0 obj
+<<
+/Length 977
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 781.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F2 9.5 Tf 12 TL (OUTPUT:-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 611.1701 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 3 161.7 Tm /F3 7.5 Tf 9.4 TL (Opening balance: 5000.00) Tj T* (Account Number = 1001, Customer Name = Arpit Kumar) Tj T*  T* (Amount = 2000, click Deposit) Tj T* (JOptionPane: Rs. 2000.0 deposited successfully.   \(Balance: 7000.00\)) Tj T*  T* (Amount = 10000, click Withdraw) Tj T* (JOptionPane \(Error\): Insufficient balance!        \(Balance: 7000.00\)) Tj T*  T* (Amount = 1500, click Withdraw) Tj T* (JOptionPane: Rs. 1500.0 withdrawn successfully.   \(Balance: 5500.00\)) Tj T*  T* (Click Check Balance) Tj T* (JOptionPane: Current Balance: Rs. 5500.00) Tj T*  T* (Invalid / negative amount -> "Please enter a valid amount." /) Tj T* ("Amount must be greater than zero.") Tj T* (On clicking Clear: account number, name and amount are cleared.) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+xref
+0 53
+0000000000 65535 f 
+0000000015 00000 n 
+0000000123 00000 n 
+0000000281 00000 n 
+0000000330 00000 n 
+0000000530 00000 n 
+0000004215 00000 n 
+0000004266 00000 n 
+0000004373 00000 n 
+0000004485 00000 n 
+0000004590 00000 n 
+0000004791 00000 n 
+0000008632 00000 n 
+0000008833 00000 n 
+0000012347 00000 n 
+0000012548 00000 n 
+0000016606 00000 n 
+0000016807 00000 n 
+0000019952 00000 n 
+0000020153 00000 n 
+0000024107 00000 n 
+0000024308 00000 n 
+0000028197 00000 n 
+0000028398 00000 n 
+0000032107 00000 n 
+0000032308 00000 n 
+0000035834 00000 n 
+0000036035 00000 n 
+0000039987 00000 n 
+0000040188 00000 n 
+0000044351 00000 n 
+0000044552 00000 n 
+0000048396 00000 n 
+0000048597 00000 n 
+0000053094 00000 n 
+0000053295 00000 n 
+0000056824 00000 n 
+0000057025 00000 n 
+0000058054 00000 n 
+0000061740 00000 n 
+0000065579 00000 n 
+0000069093 00000 n 
+0000073151 00000 n 
+0000076296 00000 n 
+0000080250 00000 n 
+0000084137 00000 n 
+0000087846 00000 n 
+0000091370 00000 n 
+0000095322 00000 n 
+0000099485 00000 n 
+0000103329 00000 n 
+0000107826 00000 n 
+0000111355 00000 n 
+trailer
+<<
+/Size 53
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+112384
+%%EOF
